@@ -1,0 +1,32 @@
+{
+    "contents" : [
+        { 
+            "id" : "1", 
+            "url" : "https://medium.com/@x_TomCooper_x/ukraine-war-4-september-2022-ukrainian-attacks-in-kherson-oblast-ed25239f3116", 
+            "name":"Ukraine War", 
+            "actions" : [
+                { "engagement_lower_bound" : 40,"engagement_upper_bound" : 100, "action_performed_on" : 4, "engagement_lost_percentage" : 10, "action_type":"notification", "action_message":"Başka bir içeriğe geçiş yapabilirsiniz."},
+                { "engagement_lower_bound" : 0,"engagement_upper_bound" : 40,"action_performed_on" : 2 ,"engagement_lost_percentage" : 20,"action_type":"email", "action_message":"Kahve molası verebilirsiniz."}
+            ]             
+        },
+        { 
+            "id" : "2", 
+            "url" : "https://medium.com/history-of-yesterday/six-unexplainable-ancient-artifacts-7f909a0a2c7", 
+            "name":"Siz I-Unexplainable Ancient Artifacts", 
+            "actions" : [
+                { "engagement_lower_bound" : 40,"engagement_upper_bound" : 100, "action_performed_on" : 2, "engagement_lost_percentage" : 10, "action_type":"notification", "action_message":"Başka bir içeriğe geçiş yapabilirsiniz."},
+                { "engagement_lower_bound" : 0,"engagement_upper_bound" : 40,"action_performed_on" : 2 ,"engagement_lost_percentage" : 20,"action_type":"email", "action_message":"Kahve molası verebilirsiniz."},
+                { "engagement_lower_bound" : 40,"engagement_upper_bound" : 100,"action_performed_on" : 2 ,"engagement_lost_percentage" : 10,"action_type":"email", "action_message":"Başka bir içeriğe geçiş yapabilirsiniz."}
+            ]
+        },
+        { 
+            "id" : "3", 
+            "url" : "https://medium.com/flutter/whats-new-in-flutter-3-3-893c7b9af1ff", 
+            "name":"What is new in Flutter 3.3", 
+            "actions" : [
+                { "engagement_lower_bound" : 40,"engagement_upper_bound" : 100, "action_performed_on" : 4, "engagement_lost_percentage" : 10, "action_type":"notification", "action_message":"Başka bir içeriğe geçiş yapabilirsiniz."},
+                { "engagement_lower_bound" : 0,"engagement_upper_bound" : 40,"action_performed_on" : 2 ,"engagement_lost_percentage" : 20,"action_type":"email", "action_message":"Kahve molası verebilirsiniz."}
+            ]
+        }
+    ]
+}

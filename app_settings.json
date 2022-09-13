@@ -2,30 +2,35 @@
     "contents" : [
         { 
             "id" : "1", 
-            "url" : "https://medium.com/@x_TomCooper_x/ukraine-war-4-september-2022-ukrainian-attacks-in-kherson-oblast-ed25239f3116", 
-            "name":"Ukraine War", 
+            "url" : "https://ekampus.anadolu.edu.tr/#/materialdisplay?sourceurl=https%3A%2F%2Fwww.youtube.com%2Fembed%2FxWCMK1g3o4Q%3Frel%3D0&turnbackurl=%2Fmaterials%2FPersonel%2FING101U%2F%C4%B0NG%C4%B0L%C4%B0ZCE%20I%2FTOPIC_BASED_VIDEO%2FALL&materialid=190049&materialrate=0&materialname=%C3%9Cnite%20%C3%96zeti%20(Video)&courseurlcode=ING101U&materialtype=CHAPTER_SUMMARY_VIDEO&fileextension=youtube/link", 
+            "name":"All About You (Text)", 
             "actions" : [
-                { "engagement_lower_bound" : 40,"engagement_upper_bound" : 100, "action_performed_on" : 4, "engagement_lost_percentage" : 10, "action_type":"notification", "action_message":"Başka bir içeriğe geçiş yapabilirsiniz."},
-                { "engagement_lower_bound" : 0,"engagement_upper_bound" : 40,"action_performed_on" : 2 ,"engagement_lost_percentage" : 20,"action_type":"email", "action_message":"Kahve molası verebilirsiniz."}
+                { "engagement_lower_bound" : 65,"engagement_upper_bound" : 100, "action_performed_on" : 3, "engagement_lost_percentage" : 10, "action_type":"notification", "action_message":"İlgin biraz düşmüş gözüküyor, bu ünite ile ilgili özet video izlemeye ne dersin?"},
+                { "engagement_lower_bound" : 40,"engagement_upper_bound" : 65,"action_performed_on" : 3 ,"engagement_lost_percentage" : 10,"action_type":"notification", "action_message":"İlgin biraz düşmüş gözüküyor, bir süre ara vermeye ne dersin?"},
+                { "engagement_lower_bound" : 0,"engagement_upper_bound" : 40,"action_performed_on" : 2 ,"engagement_lost_percentage" : 5,"action_type":"email", "action_message":"Odağın oldukça düştü, bir süre ara verdikten sonra çalışmaya ne dersin?"},
+                { "engagement_lower_bound" : 0,"engagement_upper_bound" : 40,"action_performed_on" : 2 ,"engagement_lost_percentage" : 5,"action_type":"notification", "action_message":"Odağın oldukça düştü, bir süre ara verdikten sonra çalışmaya ne dersin?"}
             ]             
         },
         { 
             "id" : "2", 
-            "url" : "https://medium.com/history-of-yesterday/six-unexplainable-ancient-artifacts-7f909a0a2c7", 
-            "name":"Siz I-Unexplainable Ancient Artifacts", 
+            "url" : "https://ekampus.anadolu.edu.tr/#/materialdisplay?sourceurl=https%3A%2F%2Fwww.youtube.com%2Fembed%2FG0fm2u20M_k%3Frel%3D0&turnbackurl=%2Fmaterials%2FPersonel%2FING101U%2F%C4%B0NG%C4%B0L%C4%B0ZCE%20I%2FQUESTION_BASED_VIDEO%2FALL&materialid=294245&materialrate=0&materialname=Kilit%20Soru&courseurlcode=ING101U&materialtype=KEY_QUESTION&fileextension=youtube/link", 
+            "name":"All About You (Video)", 
             "actions" : [
-                { "engagement_lower_bound" : 40,"engagement_upper_bound" : 100, "action_performed_on" : 2, "engagement_lost_percentage" : 10, "action_type":"notification", "action_message":"Başka bir içeriğe geçiş yapabilirsiniz."},
-                { "engagement_lower_bound" : 0,"engagement_upper_bound" : 40,"action_performed_on" : 2 ,"engagement_lost_percentage" : 20,"action_type":"email", "action_message":"Kahve molası verebilirsiniz."},
-                { "engagement_lower_bound" : 40,"engagement_upper_bound" : 100,"action_performed_on" : 2 ,"engagement_lost_percentage" : 10,"action_type":"email", "action_message":"Başka bir içeriğe geçiş yapabilirsiniz."}
+                { "engagement_lower_bound" : 65,"engagement_upper_bound" : 100, "action_performed_on" : 3, "engagement_lost_percentage" : 10, "action_type":"notification", "action_message":"İlgin biraz düşmüş gözüküyor, bu konu ile ilgili canlı ders kayıtlarını izlemeye ne dersin?"},
+                { "engagement_lower_bound" : 40,"engagement_upper_bound" : 65,"action_performed_on" : 3 ,"engagement_lost_percentage" : 10,"action_type":"notification", "action_message":"İlgin biraz düşmüş gözüküyor, bir süre ara vermeye ne dersin?"},
+                { "engagement_lower_bound" : 0,"engagement_upper_bound" : 40,"action_performed_on" : 2 ,"engagement_lost_percentage" : 5,"action_type":"email", "action_message":"Odağın oldukça düştü, bir süre ara verdikten sonra çalışmaya ne dersin?"},
+                { "engagement_lower_bound" : 0,"engagement_upper_bound" : 40,"action_performed_on" : 2 ,"engagement_lost_percentage" : 5,"action_type":"notification", "action_message":"Odağın oldukça düştü, bir süre ara verdikten sonra çalışmaya ne dersin?"}
             ]
         },
         { 
             "id" : "3", 
-            "url" : "https://medium.com/flutter/whats-new-in-flutter-3-3-893c7b9af1ff", 
-            "name":"What is new in Flutter 3.3", 
+            "url" : "https://ekampus.anadolu.edu.tr/#/materialdisplay?sourceurl=blob%3Ahttps%3A%2F%2Fekampus.anadolu.edu.tr%2F15523914-ff2a-4894-9770-14080c02c578&turnbackurl=%2Fmaterials%2FPersonel%2FING101U%2F%C4%B0NG%C4%B0L%C4%B0ZCE%20I%2FPAST_EXAMS%2FALL&materialid=257617&materialrate=0&materialname=%C3%87%C4%B1km%C4%B1%C5%9F%20S%C4%B1nav%20Sorular%C4%B1&courseurlcode=ING101U&materialtype=PAST_EXAMS_AOF_MIDTERM&fileextension=application/pdf", 
+            "name":"Deneme Sınavları", 
             "actions" : [
-                { "engagement_lower_bound" : 40,"engagement_upper_bound" : 100, "action_performed_on" : 4, "engagement_lost_percentage" : 10, "action_type":"notification", "action_message":"Başka bir içeriğe geçiş yapabilirsiniz."},
-                { "engagement_lower_bound" : 0,"engagement_upper_bound" : 40,"action_performed_on" : 2 ,"engagement_lost_percentage" : 20,"action_type":"email", "action_message":"Kahve molası verebilirsiniz."}
+                { "engagement_lower_bound" : 65,"engagement_upper_bound" : 100, "action_performed_on" : 3, "engagement_lost_percentage" : 10, "action_type":"notification", "action_message":"Konsantrasyonun biraz düşmüş gözüküyor, bir kaç derin nefes alıp soruları çözmeye devam edebilirsin."},
+                { "engagement_lower_bound" : 40,"engagement_upper_bound" : 65,"action_performed_on" : 3 ,"engagement_lost_percentage" : 10,"action_type":"notification", "action_message":"Konsantrasyonun çok düşmüş gözüküyor, farklı bir yıla ait sorular ile devam etmeye ne dersin?"},
+                { "engagement_lower_bound" : 0,"engagement_upper_bound" : 40,"action_performed_on" : 2 ,"engagement_lost_percentage" : 5,"action_type":"email", "action_message":"Konsantrasyonunu tamamen kaybetmiş görünüyorsun, sınav soruları ile devam etmesen daha iyi olabilir."},
+                { "engagement_lower_bound" : 0,"engagement_upper_bound" : 40,"action_performed_on" : 2 ,"engagement_lost_percentage" : 5,"action_type":"notification", "action_message":"Konsantrasyonunu tamamen kaybetmiş görünüyorsun, sınav soruları ile devam etmesen daha iyi olabilir."}
             ]
         }
     ]

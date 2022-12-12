@@ -1,37 +1,3386 @@
 {
-    "contents" : [
-        { 
-            "id" : "1", 
-            "url" : "https://drive.google.com/file/d/1qDpMHpMVrx6GGnGZ6Njs_O2mbCn_uRtC/view?usp=sharing", 
-            "name":"ING101U - All About You - Unit 1 - Text", 
-            "actions" : [
-                { "engagement_lower_bound" : 65,"engagement_upper_bound" : 100, "action_performed_on" : 3, "engagement_lost_percentage" : 10, "action_type":"notification", "action_message":"İlgin biraz düşmüş gözüküyor, bu ünite ile ilgili özet video izlemeye ne dersin?"},
-                { "engagement_lower_bound" : 40,"engagement_upper_bound" : 65,"action_performed_on" : 3 ,"engagement_lost_percentage" : 10,"action_type":"notification", "action_message":"İlgin biraz düşmüş gözüküyor, bir süre ara vermeye ne dersin?"},
-                { "engagement_lower_bound" : 0,"engagement_upper_bound" : 40,"action_performed_on" : 2 ,"engagement_lost_percentage" : 5,"action_type":"email", "action_message":"Odağın oldukça düştü, bir süre ara verdikten sonra çalışmaya ne dersin?"},
-                { "engagement_lower_bound" : 0,"engagement_upper_bound" : 40,"action_performed_on" : 2 ,"engagement_lost_percentage" : 5,"action_type":"notification", "action_message":"Odağın oldukça düştü, bir süre ara verdikten sonra çalışmaya ne dersin?"}
-            ]             
-        },
-        { 
-            "id" : "2", 
-            "url" : "https://youtu.be/xWCMK1g3o4Q", 
-            "name":"ING101U - All About You - Unit 1 - Özet Video", 
-            "actions" : [
-                { "engagement_lower_bound" : 65,"engagement_upper_bound" : 100, "action_performed_on" : 3, "engagement_lost_percentage" : 10, "action_type":"notification", "action_message":"İlgin biraz düşmüş gözüküyor, bu konu ile ilgili canlı ders kayıtlarını izlemeye ne dersin?"},
-                { "engagement_lower_bound" : 40,"engagement_upper_bound" : 65,"action_performed_on" : 3 ,"engagement_lost_percentage" : 10,"action_type":"notification", "action_message":"İlgin biraz düşmüş gözüküyor, bir süre ara vermeye ne dersin?"},
-                { "engagement_lower_bound" : 0,"engagement_upper_bound" : 40,"action_performed_on" : 2 ,"engagement_lost_percentage" : 5,"action_type":"email", "action_message":"Odağın oldukça düştü, bir süre ara verdikten sonra çalışmaya ne dersin?"},
-                { "engagement_lower_bound" : 0,"engagement_upper_bound" : 40,"action_performed_on" : 2 ,"engagement_lost_percentage" : 5,"action_type":"notification", "action_message":"Odağın oldukça düştü, bir süre ara verdikten sonra çalışmaya ne dersin?"}
-            ]
-        },
-        { 
-            "id" : "3", 
-            "url" : "https://drive.google.com/file/d/1zNPvTuHoQMfkCrrLMgTmmbrL3nGf28st/view?usp=sharing", 
-            "name":"ING101U - Çıkmış Sınav Soruları Ara Sınav 2012-2013", 
-            "actions" : [
-                { "engagement_lower_bound" : 65,"engagement_upper_bound" : 100, "action_performed_on" : 3, "engagement_lost_percentage" : 10, "action_type":"notification", "action_message":"Konsantrasyonun biraz düşmüş gözüküyor, bir kaç derin nefes alıp soruları çözmeye devam edebilirsin."},
-                { "engagement_lower_bound" : 40,"engagement_upper_bound" : 65,"action_performed_on" : 3 ,"engagement_lost_percentage" : 10,"action_type":"notification", "action_message":"Konsantrasyonun çok düşmüş gözüküyor, farklı bir yıla ait sorular ile devam etmeye ne dersin?"},
-                { "engagement_lower_bound" : 0,"engagement_upper_bound" : 40,"action_performed_on" : 2 ,"engagement_lost_percentage" : 5,"action_type":"email", "action_message":"Konsantrasyonunu tamamen kaybetmiş görünüyorsun, sınav soruları ile devam etmesen daha iyi olabilir."},
-                { "engagement_lower_bound" : 0,"engagement_upper_bound" : 40,"action_performed_on" : 2 ,"engagement_lost_percentage" : 5,"action_type":"notification", "action_message":"Konsantrasyonunu tamamen kaybetmiş görünüyorsun, sınav soruları ile devam etmesen daha iyi olabilir."}
-            ]
-        }
-    ]
+	"contents": [{
+			"id": "1",
+			"url": "https://drive.google.com/drive/u/1/folders/1JZ-NpZM4OR36XQjGOckZUMfvStGHSN_G",
+			"name": "ING101U - All About You - Unit 1 - Kitap_pdf",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgini kaybetmiş görünüyorsun. Bu ünitedeki hedeflere ulaşman, İngilizce öğrenme sürecinde sağlam bir temel için önemli olabilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin azalmış görünüyor. İngilizcedeki selamlaşma ifadelerini öğrenmek yabancıların olduğu yeni ortamlarda daha olumlu bir izlenim yaratmana yardımcı olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " İlgin oldukça düştü. Dikkatini toplanmakta zorlanıyorsan birkaç derin nefes almayı deneyebilirsin. Derin nefesler seni gevşetip odaklanmana yardımcı olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " İlgin oldukça düştü. Dikkatini toplanmakta zorlanıyorsan birkaç derin nefes almayı deneyebilirsin. Derin nefesler seni gevşetip odaklanmana yardımcı olabilir."
+				}
+			]
+		},
+		{
+			"id": "2",
+			"url": "https://www.youtube.com/watch?v=xWCMK1g3o4Q",
+			"name": "ING101U - All About You - Unit 1 - Konu Tabanlı Video",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu ünitede İngilizce öğrenirken ilk basamaklardan birisi olan kendini tanıtma ifadeleriyle başlıyoruz. Bu ifadeleri doğru öğrenmek yabancı birisiyle tanıştığında işine yarayacaktır."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlginin azaldığını gözlemliyoruz. Bu video basit İngilizce cümleler kurarken en çok kullandığımız fiillerden birisi olan “to be” fiilinin kullanımyla ilgili güzel bir anlatım içeriyor."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin."
+				}
+			]
+		},
+		{
+			"id": "3",
+			"url": "https://www.youtube.com/watch?v=ezuDBI1ziu4",
+			"name": "ING101U - All About You - Unit 1 - Uzman Anlatımı",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu ünite İngilizce öğrenirken oldukça önemli bir basamak olan “to be” fiilinin kullanımını bağlam içerisinde ve eğlenceli bir şekilde açıklıyor. Videodakine benzer örnek cümleler yapmayı deneyebilirsin. Bu seni daha aktif tutar."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  Odağın oldukça azaldı. Bu video öğretici ve eğlenceli bir anlatımla “to be” fiilini nasıl kullanacağımızı açıklıyor. Bağlam içinde verilen örnekler sana bu yapıyı nasıl kullanacağınla ilgili güzel örnekler içeriyor. Videoyu ara ara ara durdurup benzer cümleler kurmayı deneyebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " İlgin oldukça düştü. İlgin çok azaldı. Bu videoda bağlam içerisinde kullanılan örneklerin daha ayrıntılı anlatımları için kitabımızın pdf versiyonuna göz atabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " İlgin çok azaldı. Bu videoda bağlam içerisinde kullanılan örneklerin daha ayrıntılı anlatımları için kitabımızın pdf versiyonuna göz atabilirsin."
+				}
+			]
+		},
+		{
+			"id": "4",
+			"url": "https://www.youtube.com/watch?v=G0fm2u20M_k",
+			"name": "ING101U - All About You - Unit 1 - Soru Tabanlı Video_Kilit Sorular",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Bu kısa videoda 1. ünitenin hedef yapılarıyla ilgili sınavda karşına çıkabilecek sorular var. Sorulara nasıl yaklaşman gerektiğini dinlersen sınavda işin kolaylaşır."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu soru tabanlı videodaki soruları öğretim elemanımızdan önce sen cevaplar mısın? Çözümlerdeki önerileri not edebilir ve benzer sorularda deneyebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın oldukça azaldı. Kendi öz-değerlendirmeni yapmak ve hangi noktalarda sorun yaşadığını tespit etmek için çıkmış sınav sorularındaki ilk 5 soruya göz atabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın oldukça azaldı. Kendi öz-değerlendirmeni yapmak ve hangi noktalarda sorun yaşadığını tespit etmek için çıkmış sınav sorularındaki ilk 5 soruya göz atabilirsin."
+				}
+			]
+		},
+		{
+			"id": "5",
+			"url": "İhttps://www.youtube.com/watch?v=t3ZA70hlLKw",
+			"name": "ING101U - All About You - Unit 1 - Soru Tabanlı Video_1 Soru 1 Cevap",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Bu bölümde 1. ünitenin hedef yapılarıyla ilgili daha önceki yıllarda çıkmış soruların çözümleri var. Bu video sana benzer soruları nasıl çözmen gerektiğiyle ilgili taktikler kazandırabilir.  "
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Öğretim elemanımızın çıkmış soruları nasıl çözebileceğimizle ilgili verdiği taktikleri farklı sorularla uygulamaya ne dersin? Bu videoya yeterince odaklanman çıkmış sınav sorularını çözerken işini kolaylaştıracaktır. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın çok düştü. Çıkmış sınav sorularını videoyu durdurup önce sen cevapla. Bu seni daha aktif tutacaktır. Sorularda zorlanıyorsan özet konu anlatımı içeren videoya geri dönebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " İlgin oldukça düştü. Dikkatini toplanmakta zorlanıyorsan birkaç derin nefes almayı deneyebilirsin. Derin nefesler seni gevşetip odaklanmana yardımcı olabilir."
+				}
+			]
+		},
+		{
+			"id": "6",
+			"url": "https://ekampus.anadolu.edu.tr/#/materialdisplay?sourceurl=https%3A%2F%2Fvk20.anadolu.edu.tr%2Fplayback%2Fpresentation%2F2.3%2F9a62fc2549586379fcd1cbee3d735da54927b960-1667396755208&turnbackurl=%2Fmaterials%2FPersonel%2FING101U%2FİNGİLİZCE%20I%2FLIVE_COURSE%2FALL&materialid=474506&materialrate=0&materialname=Canlı%20Ders%20Kayıtları&courseurlcode=ING101U&materialtype=LIVE_COURSE&fileextension=youtube/link",
+			"name": "ING101U - All About You - Unit 1 - Canlı Ders - 2022-23_hafta1",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu ünitede İngilizce öğrenirken ilk basamaklardan birisi olan kendini tanıtma ifadeleriyle başlıyoruz. Bu ifadeleri doğru öğrenmek yabancı birisiyle tanıştığında işine yarayacaktır."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlginin azaldığını gözlemliyoruz. Bu videoda öğretim elemanımız “to be” fiilinin kullanımıyla ilgili ayrıntılı açıklamalarda bulunuyor. Videoya odaklanman konuyu kavrama yardım edebilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin."
+				}
+			]
+		},
+		{
+			"id": "7",
+			"url": "https://drive.google.com/file/d/1UcM0A8-aZ4uGi9Epy3URTW7qer-XQQxO/view?usp=sharing",
+			"name": "ING101U - All About You - Unit 1 - Çıkmış Sınav Soruları - 2021-22 (ara sınav)",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin biraz düşmüş gözüküyor, bu ünite ile ilgili özet video izlemeye ne dersin?"
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu bölümdeki ilk üç sorudaki performansını değerlendir. İlk üç soruya doğru cevap verdiysen bir sonraki üniteye çalışmak için artık hazırsın demektir. Sorularda zorlanıyorsan konu tabanlı videoya dönebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın çok düştü. Çıkmış sınav sorularındaki performansın konuyu anlayıp anlamadığınla ilgili bir değerlendirme yapmana yardımcı olabilir. Soruları cevaplamakta zorlanmıyorsan bir sonraki üniteye geçmeye hazırsın demektir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın çok düştü. Çıkmış sınav sorularındaki performansın konuyu anlayıp anlamadığınla ilgili bir değerlendirme yapmana yardımcı olabilir. Soruları cevaplamakta zorlanmıyorsan bir sonraki üniteye geçmeye hazırsın demektir."
+				}
+			]
+		},
+		{
+			"id": "8",
+			"url": "https://drive.google.com/drive/u/1/folders/1JZ-NpZM4OR36XQjGOckZUMfvStGHSN_G",
+			"name": "ING101U - All About You - Unit 2 - In Class - Kitap_pdf",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düşmüş görünüyor. Bu ünitedeki etkinlikler “to be” fiilini pekiştirmede etkili olabilir. “To be” fiilini tüm şahıs zamirleriyle birlikte doğru kullanmayı öğrenmek İngilizce öğrenirken ilk basamaktır."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bazı öğrenenler için metin üzerinden çalışmak bazen sıkıcı olabilir. Bu konuya daha iyi odaklanmak için aynı ünitenin konu tabanlı videosunu izlemeye ne dersin?"
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın oldukça azalmış görünüyor. Çalışmaya küçük bir ara vermek iyi bir fikir olabilir. Bu esnada, uluslararası bir şirkette çalıştığını ve öğrendiğin bu ifadeleri orada kullandığında nasıl hissettiğini hayal edebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın oldukça azalmış görünüyor. Çalışmaya küçük bir ara vermek iyi bir fikir olabilir. Bu esnada, uluslararası bir şirkette çalıştığını ve öğrendiğin bu ifadeleri orada kullandığında nasıl hissettiğini hayal edebilirsin."
+				}
+			]
+		},
+		{
+			"id": "9",
+			"url": "https://www.youtube.com/watch?v=m5WSANHHeg0",
+			"name": "ING101U - In Class - Unit 2 - Konu Tabanlı Video",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu videoyu izleyerek 2. Ünitenin konularını öğretim elemanımızla birlikte tekrar edebilirsin. Videoyu izlerken öğretim elemanımızın verdiği örneklere benzer cümleler kurup konuyu pekiştirebilirsin."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Gözlerini videodaki öğretim elemanımıza odaklaman ve eğer yakınında mobil telefon gibi çeldiriciler varsa onları bir süreliğine uzaklaştırman dikkatini toplamada işine yarayabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın çok azaldı. Pasif bir şekilde video izlemek odağını düşürmüş olabilir. Şimdi kendine bu videodaki kazanımlara ulaşmakla ilgili bir hedef belirle. Bu hedefe ulaşmak için neler yapabileceğini düşün."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın çok azaldı. Pasif bir şekilde video izlemek odağını düşürmüş olabilir. Şimdi kendine bu videodaki kazanımlara ulaşmakla ilgili bir hedef belirle. Bu hedefe ulaşmak için neler yapabileceğini düşün."
+				}
+			]
+		},
+		{
+			"id": "10",
+			"url": "https://www.youtube.com/watch?v=1tu9lBgqFcY",
+			"name": "ING101U - In Class - Unit 2  - Uzman Anlatımı",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu video 2. Ünitenin hedef yapılarını bağlam içerisinde göstererek bu yapıların gerçek hayattaki kullanımlarıyla ilgili güzel örnekler sunuyor. Dilersen sen de bu yapıları hangi farklı bağlamlarda kullanabileceğini düşünebilirsin."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin oldukça düştü. Bu videoda konuları gerçek hayattan örneklerle öğreniyoruz. Bu örneklerin daha ayrıntılı anlatımları için konu anlatımlı videoya ya da kitabımızın pdf versiyonuna göz atabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  Odağın çok azaldı. Pasif bir şekilde video izlemek odağını düşürmüş olabilir. Bu konuyu pekiştirmek için çıkmış sınav sorularına göz atabilirsin. Soruları çözerken daha aktif olacağından ilgin artabilir. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odağın çok azaldı. Pasif bir şekilde video izlemek odağını düşürmüş olabilir. Bu konuyu pekiştirmek için çıkmış sınav sorularına göz atabilirsin. Soruları çözerken daha aktif olacağından ilgin artabilir."
+				}
+			]
+		},
+		{
+			"id": "11",
+			"url": "https://www.youtube.com/watch?v=s-jSjo1vvso&t=1s",
+			"name": "ING101U - In Class - Unit 2 - Soru Tabanlı Video_Kilit Sorular",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. 2. Ünitenin kazanımlarını içeren örnek sorularla hazırlanmış bu video sınavda işini kolaylaştırabilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin biraz azaldı. Bu videodaki sorulara odaklanmana engel olacak çevresel uyaranlardan uzaklaşmak için kulaklık takabilir, cep telefonunu bir süre uzağında tutabilir ya da odak arttırıcı bir müzik açabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " İlgin oldukça azaldı. Bu videodaki soruları cevaplamakta zorlanmıyorsan çalışmanı sonlandırabilirsin. Soruları çözmekte zorlanıyorsan bu konuyla ilgili konu tabanlı videoya göz atabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " İlgin oldukça azaldı. Bu videodaki soruları cevaplamakta zorlanmıyorsan çalışmanı sonlandırabilirsin. Soruları çözmekte zorlanıyorsan bu konuyla ilgili konu tabanlı videoya göz atabilirsin."
+				}
+			]
+		},
+		{
+			"id": "12",
+			"url": "https://www.youtube.com/watch?v=3EyBbxsaUtQ&t=1s",
+			"name": "ING101U - In Class - Unit 2 -  Soru Tabanlı Video_1 Soru 1 Cevap",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "     Odağın biraz düştü. Bu videoda 2. ünitenin hedef yapılarıyla ilgili önceki yıllarda çıkmış soruların çözümleri var. Soruları öğretim elemanımız yanıtlamadan önce sen yanıtla. Performansını 1-10 arası bir puan vererek değerlendir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "   Odağın biraz azaldı. Bu bölümdeki soruları öğretim elemanımızdan önce videoyu durdurarak sen yanıtla. Sorulara doğru cevap verdiysen bir sonraki üniteye çalışmak için artık hazırsın demektir. Sorularda zorlanıyorsan konu tabanlı videoya dönebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  Odaklanmakta zorlanıyorsan birkaç dakikalık küçük bir ara tekrar odaklanmana yardımcı olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odaklanmakta zorlanıyorsan birkaç dakikalık küçük bir ara tekrar odaklanmana yardımcı olabilir."
+				}
+			]
+		},
+		{
+			"id": "13",
+			"url": "https://ekampus.anadolu.edu.tr/#/materialdisplay?sourceurl=https%3A%2F%2Fvk20.anadolu.edu.tr%2Fplayback%2Fpresentation%2F2.3%2F9a62fc2549586379fcd1cbee3d735da54927b960-1668001954070&turnbackurl=%2Fmaterials%2FPersonel%2FING101U%2FİNGİLİZCE%20I%2FLIVE_COURSE%2FALL&materialid=476084&materialrate=0&materialname=Canlı%20Ders%20Kayıtları&courseurlcode=ING101U&materialtype=LIVE_COURSE&fileextension=youtube/link",
+			"name": "ING101U - In Class - Unit 2 - Canlı Ders-2022-23_hafta 2",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu kayıtta, öğretim elamanımız bu ünitenin önemli noktalarını ayrıntılı bir şekilde anlatıyor. Videoya odaklanmak için belirli aralıklarla kaydı durdurabilir, slaytlardaki boşlukları doldurmaya çalışarak kendini aktif tutabilirsin."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlginin azaldığını gözlemliyoruz. Bu videoda öğretim elemanımız “to be” fiilinin üçüncü tekil şahıslarla kullanımıyla ilgili ayrıntılı açıklamalarda bulunuyor. Videoya odaklanman konuyu kavrama yardım edebilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin."
+				}
+			]
+		},
+		{
+			"id": "14",
+			"url": "https://drive.google.com/file/d/1UcM0A8-aZ4uGi9Epy3URTW7qer-XQQxO/view?usp=sharing",
+			"name": "ING101U - In Class - Unit 2 - Çıkmış Sınav Soruları- 2021-22 (ara sınav)",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Bu bölümde 2. ünitenin hedef yapılarıyla ilgili 2021-22 yılı ara sınavında çıkmış sorular var. Bu soruların ilk üçü bu üniteyle ilgili. Sorulardaki performansın bu ünitedeki eksiklerini anlamana yardımcı olabilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu bölümdeki ilk birkaç sorudaki performansını değerlendir. İlk sorulara doğru cevap verdiysen bir sonraki üniteye çalışmak için artık hazırsın demektir. Sorularda zorlanıyorsan konu tabanlı videoya dönebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odaklanmakta zorlanıyorsan birkaç dakikalık küçük bir ara tekrar odaklanmana yardımcı olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odaklanmakta zorlanıyorsan birkaç dakikalık küçük bir ara tekrar odaklanmana yardımcı olabilir."
+				}
+			]
+		},
+		{
+			"id": "15",
+			"url": "https://drive.google.com/drive/u/1/folders/1JZ-NpZM4OR36XQjGOckZUMfvStGHSN_G",
+			"name": "ING101U - Favorite People - Unit 3 - Kitap_pdf",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin biraz azalmış görünüyor. Bu ünitede oldukça ilgi çekici e günlük hayatta çok işine yarayacak ifade ve kalıplar var. Odaklanmayı yeniden dene."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Dikkatini toplamakta zorlanıyor musun? Bu ünitedeki ifadeleri kullanarak sevdiğin arkadaşlarını, ünlüleri ve aile üyelerini rahatlıkla tanımlayabildiğini görebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın oldukça azaldı. Metin üzerinden çalışmakta zorlanmış olabilirsin. Aynı ünitenin canlı ders kayıtlarına göz atmak ister misin? Görsel-işitsel ders anlatımı daha ilgi çekici olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın oldukça azaldı. Metin üzerinden çalışmakta zorlanmış olabilirsin. Aynı ünitenin canlı ders kayıtlarına göz atmak ister misin? Görsel-işitsel ders anlatımı daha ilgi çekici olabilir."
+				}
+			]
+		},
+		{
+			"id": "16",
+			"url": "https://www.youtube.com/watch?v=YyzRT9JnuYk",
+			"name": "ING101U - Favorite People - Unit 3 - Konu Tabanlı Video",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu ünitede ünlüleri ve sevdiklerimizi tarif etmeyi öğreniyoruz. Öğretim elemanımızın verdiği örnekleri izledikten sonra videoyu durdurup sevdiğin bir şarkıcıyı anlatan birkaç cümle yazmayı dene. Yapabildiğini görmek odağını toplamana yardımcı olacak."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlginde biraz azalma gözlemliyoruz. Dil öğrenmek ona yeterli zaman ayırdığında ve gerekli çabayı gösterdiğinde eğlenceli bir süreçtir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın çok düştü. Çalışmaya kısa bir içecek molası vermek sonra tekrar dikkatini toplamada etkili olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odağın çok düştü. Çalışmaya kısa bir içecek molası vermek sonra tekrar dikkatini toplamada etkili olabilir."
+				}
+			]
+		},
+		{
+			"id": "17",
+			"url": "https://www.youtube.com/watch?v=XOIVlCcaILk",
+			"name": "ING101U - Favorite People - Unit 3 - Uzman Anlatımı",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Bu videoda aile üyelerimizi, arkadaşlarımızı ve sevdiğimiz ünlülerden bahsediyoruz. Oyuncularımız yapıların kullanımına güzel örnekler veriyorlar. Who is your favorite singer? Hadi bu soruyu cevapla. Yapabildiğini görmek sana daha iyi hissettirecektir. "
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  İlginde biraz azalma gözlemliyoruz. Dil öğrenmek ona yeterli zaman ayırdığında ve gerekli çabayı gösterdiğinde eğlenceli bir süreçtir. Bu videoda ünitemizdeki yapılar eğlenceli kullanımlarıyla sunuluyor. Konuların daha ayrıntılı açıklamaları için kitabımızın pdf versiyonuna göz atabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "   Odağın çok düştü. Çalışmaya kısa bir mola vermek sonra tekrar dikkatini toplamada etkili olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "   Odağın çok düştü. Çalışmaya kısa bir mola vermek sonra tekrar dikkatini toplamada etkili olabilir."
+				}
+			]
+		},
+		{
+			"id": "18",
+			"url": "https://www.youtube.com/watch?v=M9vFqPbKP9w&t=1s",
+			"name": "ING101U - Favorite People - Unit 3 - Soru Tabanlı Video_ Kilit Sorular",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlginde biraz azalma gözlemliyoruz. 3. ünitenin kazanımlarıyla ilgili örnek sorular içeren bu videoda öğrendiğin yeni bir strateji var mı? Bu stratejinin benzer soruları çözerken işine yarayacağından emin olabilirsin."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Odaklanmanı arttırmak için beyninin Alpha frekansına geçişini kolaylaştıracak müziklere YouTube gibi video paylaşım sitelerinden erişebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın fazlasıyla düştü. Dikkatini dağıtan çevresel uyaranları bir süre göz ardı etmeye ne dersin? İşe cep telefonuna 10 dakika hiç bakmamakla ilgili bir meydan okumayla başlayabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın fazlasıyla düştü. Dikkatini dağıtan çevresel uyaranları bir süre göz ardı etmeye ne dersin? İşe cep telefonuna 10 dakika hiç bakmamakla ilgili bir meydan okumayla başlayabilirsin."
+				}
+			]
+		},
+		{
+			"id": "19",
+			"url": "https://www.youtube.com/watch?v=OzxOkrk-vPE&t=1s",
+			"name": "ING101U - Favorite People - Unit 3 - Soru Tabanlı Video_1 Soru 1 Cevap",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Bu bölümde 3. ünitenin hedef yapılarıyla ilgili önceki yıllarda çıkmış soruların çözümleri var.  Bu video sana benzer soruları nasıl çözmen gerektiğiyle ilgili taktikler kazandırabilir.  "
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "     Odağın biraz azaldı. Bu videoda soruları çözerken nelere dikkat etmen gerektiğiyle ilgili önemli ipuçları yakalayabilirsin. Bu ipuçlarını çıkmış sınav sorularına dönerek kullanabilir, soruları çözerken kendine yeni stratejiler edinebilirsin. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  Odağın çok düştü. Çıkmış sınav sorularındaki performansın konuyu anlayıp anlamadığınla ilgili bir değerlendirme yapmana yardımcı olabilir. Soruları cevaplamakta zorlanmıyorsan bir sonraki üniteye geçmeye hazırsın demektir. Zorlanıyorsan uzman anlatımları videomuz hem eğlenceli hem de öğretici bir anlatımla sana yardımcı olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "   Odağın çok düştü. Çıkmış sınav sorularındaki performansın konuyu anlayıp anlamadığınla ilgili bir değerlendirme yapmana yardımcı olabilir. Soruları cevaplamakta zorlanmıyorsan bir sonraki üniteye geçmeye hazırsın demektir. Zorlanıyorsan uzman anlatımları videomuz hem eğlenceli hem de öğretici bir anlatımla sana yardımcı olabilir. "
+				}
+			]
+		},
+		{
+			"id": "20",
+			"url": "  https://ekampus.anadolu.edu.tr/#/materialdisplay?sourceurl=https%3A%2F%2Fvk20.anadolu.edu.tr%2Fplayback%2Fpresentation%2F2.3%2F9a62fc2549586379fcd1cbee3d735da54927b960-1668847637698&turnbackurl=%2Fmaterials%2FPersonel%2FING101U%2FİNGİLİZCE%20I%2FLIVE_COURSE%2FALL&materialid=477111&materialrate=0&materialname=Canlı%20Ders%20Kayıtları&courseurlcode=ING101U&materialtype=LIVE_COURSE&fileextension=youtube/link",
+			"name": "ING101U - Favorite People - Unit 3 - Canlı Ders-2022-23_hafta3",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "   Odağın biraz azaldı. Bu ünitede ünlüleri ve sevdiklerimizi tarif etmeyi öğreniyoruz. Öğretim elemanımızın açıklarını izledikten sonra sevdiğin birisini tarif etmeyi dene. Yapabildiğini görmek iyi hissettirecektir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "   İlginde biraz azalma gözlemliyoruz. Dil öğrenmek ona yeterli zaman ayırdığında ve gerekli çabayı gösterdiğinde eğlenceli bir süreçtir. Videoya odaklanmakta zorlanıyorsan kitabın pdf formatına dönebilir, sadece zorlandığın noktalara odaklanmayı deneyebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın çok düştü. Çalışmaya kısa bir içecek molası vermek sonra tekrar dikkatini toplamada etkili olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın çok düştü. Çalışmaya kısa bir içecek molası vermek sonra tekrar dikkatini toplamada etkili olabilir."
+				}
+			]
+		},
+		{
+			"id": "21",
+			"url": "https://drive.google.com/file/d/1UcM0A8-aZ4uGi9Epy3URTW7qer-XQQxO/view?usp=sharing",
+			"name": "ING101U - Favorite People - Unit 3 - Çıkmış Sınav Soruları_2021-22 Güz",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "   Odağın biraz düştü. Bu bölümde 3. ünitenin hedef yapılarıyla ilgili 2021-22 yılı ara sınavında çıkmış sorular var. Sorulardaki performansın bu ünitedeki eksiklerini anlamana yardımcı olabilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu bölümdeki ilgili sorulardaki performansını değerlendir. Sorulara doğru cevap verdiysen bir sonraki üniteye çalışmak için artık hazırsın demektir. Sorularda zorlanıyorsan konu tabanlı videoya dönebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın çok düştü. Çıkmış sınav sorularındaki performansın konuyu anlayıp anlamadığınla ilgili bir değerlendirme yapmana yardımcı olabilir. Soruları cevaplamakta zorlanmıyorsan bir sonraki üniteye geçmeye hazırsın demektir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın çok düştü. Çıkmış sınav sorularındaki performansın konuyu anlayıp anlamadığınla ilgili bir değerlendirme yapmana yardımcı olabilir. Soruları cevaplamakta zorlanmıyorsan bir sonraki üniteye geçmeye hazırsın demektir."
+				}
+			]
+		},
+		{
+			"id": "22",
+			"url": "https://drive.google.com/drive/u/1/folders/1JZ-NpZM4OR36XQjGOckZUMfvStGHSN_G",
+			"name": "ING101U - Everyday Life - Unit 4 - Kitap_pdf",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  İlgin biraz azalmış görünüyor. Bu ünitenin kazanımlarına göz attın mı? Günlük hayatta oldukça işine yarayacak ifade ve stratejiler için üniteyi biraz daha odaklanarak çalışmaya ne dersin?"
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  Dikkatin dağılmış görünüyor. Eğer daha iyi odaklanırsan bu ünitenin kazanımlarına ulaşmada zorlanmayacağından eminim. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " İlgin oldukça azaldı. Kısa bir molaya ne dersin? "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " İlgin oldukça azaldı. Kısa bir molaya ne dersin? "
+				}
+			]
+		},
+		{
+			"id": "23",
+			"url": "https://www.youtube.com/watch?v=d2fy51xrq3k&t=1s",
+			"name": "ING101U - Everyday Life - Unit 4 - Konu Tabanlı Video",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin biraz azaldı. Şimdi bu ünitenin konusu olan günlük rutinlerini yeni tanıştığın yabancı bir turiste anlattığını düşün. Yapabildiğini görmek seni motive edecektir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağında düşüş gözlemliyoruz. Bu video 4. Üniteyi oldukça açık bir şekilde özetliyor. Pasif kalmak seni biraz sıkmış olabilir fakat buna rağmen videoyu tamamlamak için çaba sarf etmen etkili bir konu tekrarı yapman için önemli olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  Odağın oldukça düştü. Eğer video izlerken pasif kalmak seni sıktıysa ders kitabına dönebilir ve sadece ihtiyacın olduğunu düşündüğün kısımlardaki konulara odaklanabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odağın oldukça düştü. Eğer video izlerken pasif kalmak seni sıktıysa ders kitabına dönebilir ve sadece ihtiyacın olduğunu düşündüğün kısımlardaki konulara odaklanabilirsin."
+				}
+			]
+		},
+		{
+			"id": "24",
+			"url": "https://www.youtube.com/watch?v=rjW2LV7fk04&t=1s",
+			"name": "ING101U - Everyday Life - Unit 4 - Soru Tabanlı Video_Kilit Sorular",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü.   Geçmiş yılların çıkmış sorularından oluşan bu video, sınavda karşına çıkacak soruları nasıl çözmen gerektiğiyle ilgili sana fikir verebilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin biraz azaldı. Bu videodaki örnek sorulara odaklanmakta zorlanıyorsan ünitenin özetini içeren konu tabanlı videoyu izleyerek konuyu hatırlayabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "   İlgin oldukça azaldı. Bu sorularda zorlandığın noktaları not edebilir, bu noktaların tekrarı için konu tabanlı özet videoyu izleyebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "   İlgin oldukça azaldı. Bu sorularda zorlandığın noktaları not edebilir, bu noktaların tekrarı için konu tabanlı özet videoyu izleyebilirsin."
+				}
+			]
+		},
+		{
+			"id": "25",
+			"url": "https://www.youtube.com/watch?v=ZC6Wn0wWDq4",
+			"name": "ING101U - Everyday Life - Unit 4 - Soru Tabanlı Video_1 Soru 1 Cevap",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Bu bölümde 4. ünitenin hedef yapılarıyla ilgili daha önceki yıllarda çıkmış sorular var. Bu sorulara doğru cevap veriyorsan kendini daha önceki yılların sorularıyla denemeye ne dersin?"
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu sorulara öğretim elemanımız soruyu cevaplamadan cevap vermeyi dene. Sorulara doğru cevap verdiysen bir sonraki üniteye çalışmak için artık hazırsın demektir. Sorularda zorlanıyorsan konu tabanlı videoya dönebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "    İlgin oldukça azaldı. Soru çözerken odağını toplayamazsan gerçek performansını sergilemekte zorlanabilirsin. Biraz ara vermek sana iyi gelebilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " İlgin oldukça azaldı. Soru çözerken odağını toplayamazsan gerçek performansını sergilemekte zorlanabilirsin. Biraz ara vermek sana iyi gelebilir. "
+				}
+			]
+		},
+		{
+			"id": "26",
+			"url": "https://www.youtube.com/watch?v=rjW2LV7fk04&t=1s",
+			"name": "ING101U - Everyday Life - Unit 4 - Uzman Anlatımı",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "   İlgin biraz azaldı. Şimdi bu ünitenin konusu olan günlük rutinlerini yeni tanıştığın yabancı bir turiste anlattığını düşün. Yapabildiğini görmek seni motive edecektir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağında düşüş gözlemliyoruz. Bu video 4. Ünitedeki konuların kullanımını bağlam içerisinde sergiliyor. Pasif kalmak seni biraz sıkmış olabilir fakat buna rağmen videoyu tamamlamak için çaba sarf etmen etkili bir konu tekrarı yapman için önemli olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın oldukça düştü. Eğer video izlerken pasif kalmak seni sıktıysa ders kitabına dönebilir ve sadece ihtiyacın olduğunu düşündüğün kısımlardaki konulara odaklanabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odağın oldukça düştü. Eğer video izlerken pasif kalmak seni sıktıysa ders kitabına dönebilir ve sadece ihtiyacın olduğunu düşündüğün kısımlardaki konulara odaklanabilirsin."
+				}
+			]
+		},
+		{
+			"id": "27",
+			"url": "https://ekampus.anadolu.edu.tr/#/materialdisplay?sourceurl=https%3A%2F%2Fvk20.anadolu.edu.tr%2Fplayback%2Fpresentation%2F2.3%2F9a62fc2549586379fcd1cbee3d735da54927b960-1669211531033&turnbackurl=%2Fmaterials%2FPersonel%2FING101U%2FİNGİLİZCE%20I%2FLIVE_COURSE%2FALL&materialid=477606&materialrate=0&materialname=Canlı%20Ders%20Kayıtları&courseurlcode=ING101U&materialtype=LIVE_COURSE&fileextension=youtube/link",
+			"name": "ING101U -Everyday Life  - Unit 4 - Canlı Ders Kayıtları-2022-23_hafta 4",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin biraz azaldı. Şimdi bu ünitenin konusu olan günlük rutinlerini yeni tanıştığın yabancı bir turiste anlattığını düşün. Yapabildiğini görmek seni motive edecektir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağında düşüş gözlemliyoruz. Bu kayıt 4. üniteyi oldukça açık bir şekilde özetliyor. Pasif kalmak seni biraz sıkmış olabilir fakat buna rağmen videoyu tamamlamak için çaba sarf etmen etkili bir konu tekrarı yapman için önemli olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın oldukça düştü. Eğer video izlerken pasif kalmak seni sıktıysa ders kitabına dönebilir ve sadece ihtiyacın olduğunu düşündüğün kısımlardaki konulara odaklanabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın oldukça düştü. Eğer video izlerken pasif kalmak seni sıktıysa ders kitabına dönebilir ve sadece ihtiyacın olduğunu düşündüğün kısımlardaki konulara odaklanabilirsin."
+				}
+			]
+		},
+		{
+			"id": "28",
+			"url": "https://drive.google.com/file/d/1UcM0A8-aZ4uGi9Epy3URTW7qer-XQQxO/view?usp=sharing",
+			"name": "ING101U - Everyday Life- Unit 4 - Çıkmış Sınav Soruları_2021-22 (ara sınav)",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Bu bölümde 4. ünitenin hedef yapılarıyla ilgili 2021-22 yılı ara sınavında çıkmış sorular var. Bu sorulara doğru cevap veriyorsan kendini daha önceki yılların sorularıyla denemeye ne dersin?"
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu sorulara doğru cevap verdiysen bir sonraki üniteye çalışmak için artık hazırsın demektir. Sorularda zorlanıyorsan konu tabanlı videoya dönebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " İlgin oldukça azaldı. Soru çözerken odağını toplayamazsan gerçek performansını sergilemekte zorlanabilirsin. Biraz ara vermek sana iyi gelebilir. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " İlgin oldukça azaldı. Soru çözerken odağını toplayamazsan gerçek performansını sergilemekte zorlanabilirsin. Biraz ara vermek sana iyi gelebilir."
+				}
+			]
+		},
+		{
+			"id": "29",
+			"url": "https://drive.google.com/drive/u/1/my-drive",
+			"name": "ING101U - Free Time - Unit 5 - Kitap_pdf",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düşmüş görünüyor. Bu ünitenin teması boş zaman etkinlikleri. Günlük yaşamımızda bu konudan sıkça bahsediyoruz. Hobilerini ve sevdiğin TV programlarını yabancı arkadaşlarına anlatabilmek sana iyi hissettirmez miydi?"
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odaklanmakta sorun mu yaşıyorsun? Bu ünitede geniş zamanı pekiştirmeye devam ediyoruz. Senin de bildiğin gibi geniş zaman günlük iletişimimizin önemli bir kısmında sıkça kullandığımız zamanlardan birisi. Bu ünitedeki kazanımlar İngilizce öğrenmede sana iyi bir temel sağlayabilir. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "İlgini canlı tutmakta zorlanıyor gibisin. Canlı ders kayıtları bu ünitedeki konuları daha farklı bir öğrenme ortamında bizlere aktarıyor. Bu kayıtlara bir göz atalım mı?"
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " İlgini canlı tutmakta zorlanıyor gibisin. Canlı ders kayıtları bu ünitedeki konuları daha farklı bir öğrenme ortamında bizlere aktarıyor. Bu kayıtlara bir göz atalım mı?"
+				}
+			]
+		},
+		{
+			"id": "30",
+			"url": "https://www.youtube.com/watch?v=3tyVzdCI56E",
+			"name": "ING101U - Free Time - Unit 5 - Konu Tabanlı Video",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlginde biraz azalma tespit ettik. Bu ünitede boş zaman etkinliklerini anlatabilmen için gerekecek yeni kelimeler öğreneceksin. Bu kelimeleri cümle içinde kullanmayı deneyebilirsin. Birkaç denemeden sonra yapabildiğini görmek ilgini arttırabilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlginde azalma gözlemliyorum. Bu videoyu daha aktif bir şekilde izleyebilmen için aralıklarla durdurup videoda geçen etkinlikleri ne sıklıkla yaptığını düşünebilir ve cümle kurma denemeleri yapabilirsin. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " İlgin oldukça azaldı. Bu konuyu canlı ders ortamında anlatan öğretim elemanlarımızın kayıtlarına göz atabilirsin. Farklı öğrenme materyallerini keşfetmek kendin için hangisinin en faydalı olduğunu bulman için önemlidir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  İlgin oldukça azaldı. Bu konuyu canlı ders ortamında anlatan öğretim elemanlarımızın kayıtlarına göz atabilirsin. Farklı öğrenme materyallerini keşfetmek kendin için hangisinin en faydalı olduğunu bulman için önemlidir."
+				}
+			]
+		},
+		{
+			"id": "31",
+			"url": "https://www.youtube.com/watch?v=3tyVzdCI56E",
+			"name": "ING101U - Free Time - Unit 5 - Uzman Anlatımı",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlginde biraz azalma tespit ettik. Bu ünitede günlük rutinlerini anlatabilmen için gerekecek yeni kelimeler öğreneceksin. Bu kelimeleri cümle içinde kullanmayı deneyebilirsin. Birkaç denemeden sonra yapabildiğini görmek ilgini arttırabilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlginde azalma gözlemliyorum. Bu videoyu daha aktif bir şekilde izleyebilmen için aralıklarla durdurup videoda geçen etkinlikleri ne sıklıkla yaptığını düşünebilir ve cümle kurma denemeleri yapabilirsin.."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "    İlgin oldukça azaldı. Bu konuyu canlı ders ortamında anlatan öğretim elemanlarımızın kayıtlarına göz atabilirsin. Farklı öğrenme materyallerini keşfetmek kendin için hangisinin en faydalı olduğunu bulman için önemlidir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "    İlgin oldukça azaldı. Bu konuyu canlı ders ortamında anlatan öğretim elemanlarımızın kayıtlarına göz atabilirsin. Farklı öğrenme materyallerini keşfetmek kendin için hangisinin en faydalı olduğunu bulman için önemlidir."
+				}
+			]
+		},
+		{
+			"id": "32",
+			"url": "https://ekampus.anadolu.edu.tr/#/materialdisplay?sourceurl=https%3A%2F%2Fvk20.anadolu.edu.tr%2Fplayback%2Fpresentation%2F2.3%2F9a62fc2549586379fcd1cbee3d735da54927b960-1669816522643&turnbackurl=%2Fmaterials%2FPersonel%2FING101U%2FİNGİLİZCE%20I%2FLIVE_COURSE%2FALL&materialid=478426&materialrate=0&materialname=Canlı%20Ders%20Kayıtları&courseurlcode=ING101U&materialtype=LIVE_COURSE&fileextension=youtube/link",
+			"name": "ING101U - Free Time - Canlı Ders Kayıtları-2022-23_Hafta 5",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı.  Bu ünitede günlük rutinlerini anlatabilmen için gerekecek yeni kelimeler öğreneceksin. Bu kelimeleri cümle içinde kullanmayı deneyebilirsin. Birkaç denemeden sonra yapabildiğini görmek ilgini arttırabilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "Odağın oldukça düştü. Bu derste 5. Ünitenin yapıları öğretim elemanımız tarafından ayrıntılı bir şekilde açıklanıyor. Odaklanmakta zorlanıyorsan ünitemizin pdf versiyonuna gidip sadece eksik olduğun kısımların tekrarını yapabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "   Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin."
+				}
+			]
+		},
+		{
+			"id": "33",
+			"url": "https://www.youtube.com/watch?v=jI1pkKn5yYg&t=1s",
+			"name": "ING101U - Free Time - Unit 5 - Soru Tabanlı Video_Kilit Sorular",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlginin biraz azaldığını gözlemliyoruz. Bu videoda izlediğin örnek soru çözümleri sana sınavlarda yardımcı olabilecek taktikler içeriyor. Bu taktikleri not almaya ne dersin? Bu seni video izlerken daha aktif tutabilir. "
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin biraz azaldı. Bu videoyu her yeni soruda durdurup öğretim elemanımızın sorduğu soruları önce sen cevapla. Tüm sorulara verdiğin yanıtların cevaplarını düşünerek performansına puan ver."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın oldukça düştü. Şimdi biraz ara ver ve bu konuları pekiştirmek için neler yapabileceğini düşün. Dil öğrenirken kendi stratejilerini geliştirmen işini çok kolaylaştırır. Hedef belirlemek ve bu hedefe ulaşmak için bire süre tayin etmek öz düzenleme becerilerine katkı sağlar."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın fazlasıyla düştü. Çıkmış sınav sorularının çözümlerinden oluşan bu video seni zorluyorsa konu tekrarı için konu tabanlı videoya geri dönebilirsin. Benzer soruları çözmekteki performansını görmek için çıkmış sınav sorularına göz atabilirsin."
+				}
+			]
+		},
+		{
+			"id": "34",
+			"url": "https://www.youtube.com/watch?v=36GjSWQ_JNo",
+			"name": "ING101U - Free Time - Unit 5 - Soru Tabanlı Video_1 Soru 1 Cevap",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Şimdi gireceğin sınavda bu soruları başarıyla çözdüğünü imgele. Bunu yapabilecek kontrolün sende mevcut olduğuna inan."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  Odağın oldukça düştü. Şu an sıkılıyor olsan bile bu örnek soruları çözmenin gireceğin sınavlarda başarını arttırmak için gerekli olduğunu kendine ara ara hatırlatman odağını arttırabilir. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " İlgin oldukça azaldı. Etrafındaki çeldiricileri uzaklaştırmak dikkatini arttırabilir. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " İlgin oldukça azaldı. Etrafındaki çeldiricileri uzaklaştırmak dikkatini arttırabilir."
+				}
+			]
+		},
+		{
+			"id": "35",
+			"url": "https://drive.google.com/file/d/1UcM0A8-aZ4uGi9Epy3URTW7qer-XQQxO/view?usp=sharing",
+			"name": "ING101U - Free Time - Unit 5 -Çıkmış Sınav Soruları_2021-22 (ara sınav)",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Şimdi gireceğin sınavda bu soruları başarıyla çözdüğünü imgele. Bunu yapabilecek kontrolün sende mevcut olduğuna inan."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın oldukça düştü. Şu an sıkılıyor olsan bile bu örnek soruları çözmenin gireceğin sınavlarda başarını arttırmak için gerekli olduğunu kendine ara ara hatırlatman odağını arttırabilir. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " İlgin oldukça azaldı. Etrafındaki çeldiricileri uzaklaştırmak dikkatini arttırabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " İlgin oldukça azaldı. Etrafındaki çeldiricileri uzaklaştırmak dikkatini arttırabilir. "
+				}
+			]
+		},
+		{
+			"id": "36",
+			"url": "https://drive.google.com/drive/u/1/folders/1JZ-NpZM4OR36XQjGOckZUMfvStGHSN_G",
+			"name": "ING101U - Neighbourhoods - Unit 6 - Kitap_pdf",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlginde biraz azalma gözlemliyorum. Bu ünitenin kazanımları arasında yaşadığın mahalleyi ve yerel etkinlikleri tarif etmek var. Yabancı bir arkadaşına yaşadığın bölgeyi yeri tanıtmak işine yaramaz mıydı?"
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin azalmış görünüyor. Bu ünitede yaşadığımız mahalleyi tanıtmak için kullandığımız sıfatlar ve dilbilgisi kalıplarını öğreniyoruz. Bu ifadeler yabancı bir arkadaşın veya bir turist ile konuşurken işine yarayacaktır."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odaklanma düzeyin çok düştü. Bir süre açık havada dolaşabilir ya da komik bir video izleyebirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odaklanma düzeyin çok düştü. Bir süre açık havada dolaşabilir ya da komik bir video izleyebirsin."
+				}
+			]
+		},
+		{
+			"id": "37",
+			"url": "https://www.youtube.com/watch?v=tU1zZ-SgjO4&t=1s",
+			"name": "ING101U -Neighbourhoods - Unit 6 - Konu Tabanlı Video",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Şimdi çevrene bir göz at ve dikkatini dağıtabilecek çeldiricileri uzaklaştırmayı dene."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  İlgin biraz azalmış görünüyor. Yaşadığımız çevreyi tarif etmeyi öğrendiğimiz bu video şehrimizi yabancılara tanıtırken kullanabileceğin yapıları özetliyor. Bu ifade ve kalıpları nerelerde kullanabileceğini düşün."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın oldukça düştü. Şimdi biraz ara ver ve bu konuları pekiştirmek için neler yapabileceğini düşün. Dil öğrenirken kendi stratejilerini geliştirmen işini çok kolaylaştırır. Hedef belirlemek ve bu hedefe ulaşmak için bire süre tayin etmek öz düzenleme becerilerine katkı sağlar."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın oldukça düştü. Şimdi biraz ara ver ve bu konuları pekiştirmek için neler yapabileceğini düşün. Dil öğrenirken kendi stratejilerini geliştirmen işini çok kolaylaştırır. Hedef belirlemek ve bu hedefe ulaşmak için bire süre tayin etmek öz düzenleme becerilerine katkı sağlar."
+				}
+			]
+		},
+		{
+			"id": "38",
+			"url": "https://www.youtube.com/watch?v=_jXvnGN_P-U&t=1s",
+			"name": "ING101U -Neighbourhoods - Unit 6 - Uzman Anlatımı",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu videoda hedef yapıları gündelik yaşamımızda nasıl kullandığımızı görüyoruz. Bu yapıları sen nerelerde kullanabilirsin? Gördüğün gibi bu yapılar sana pek çok farklı durumda kendini ifade etmende fayda sağlayabilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin oldukça düştü. Bu öğrendiğin yapılarla ilgili daha önceki yıllarda çıkmış sorulara bir göz atmaya ne dersin? Bu seni daha aktif tutarak ilgini arttırabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "   Odağın çok azaldı. Şimdi çevrene bir göz at ve dikkatini dağıtabilecek çeldiricileri uzaklaştırmayı dene."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "   Odağın çok azaldı. Şimdi çevrene bir göz at ve dikkatini dağıtabilecek çeldiricileri uzaklaştırmayı dene."
+				}
+			]
+		},
+		{
+			"id": "39",
+			"url": "https://drive.google.com/file/d/1qDpMHpMVrx6GGnGZ6Njs_O2mbCn_uRtC/view?usp=sharing",
+			"name": "ING101U - Neighbourhoods - Unit 6 - Canlı Ders Kayıtları_2022-2023_Hafta 6",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin biraz düştü. Gözlerini videodaki öğretim elemanımıza odaklaman ve eğer yakınında mobil telefon gibi çeldiriciler varsa onları bir süreliğine uzaklaştırman dikkatini toplamada işine yarayabilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "   Odağın çok azaldı. Pasif bir şekilde video izlemek odağını düşürmüş olabilir. Şimdi kendine bu videodaki kazanımlara ulaşmakla ilgili bir hedef belirle. Bu hedefe ulaşmak için neler yapabileceğini düşün."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin."
+				}
+			]
+		},
+		{
+			"id": "40",
+			"url": "https://drive.google.com/file/d/1qDpMHpMVrx6GGnGZ6Njs_O2mbCn_uRtC/view?usp=sharing",
+			"name": "ING101U - Neighbourhoods - Unit 6 -Soru Tabanlı Video_Kilit Sorular",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu örnek sorulara cevap verebiliyorsan konuyu iyi kavradın demektir. Sınavda işin oldukça kolay olacak gibi görünüyor."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  Odağın biraz düştü. Bu videodaki soruları çözerken öğrendiğin taktikleri çıkmış sınav sorularına bakarak uygulamaya ne dersin?"
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " İlgin oldukça azaldı. Dikkatini dağıtan çeldiriciler varsa onları bir süre göz ardı etmeye ne dersin?"
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " İlgin oldukça azaldı. Dikkatini dağıtan çeldiriciler varsa onları bir süre göz ardı etmeye ne dersin?"
+				}
+			]
+		},
+		{
+			"id": "41",
+			"url": "https://www.youtube.com/watch?v=fipuudO5iTE",
+			"name": "ING101U - Neighbourhoods - Unit 6 -Soru Tabanlı Video_1 Soru 1 Cevap",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  Odağın biraz azaldı. Bu videoda öğretim elemanımızın soruları çözerken dikkat çektiği noktalar neler? Bu noktaları kendi kendine önceki yılların sorularını çözerken nasıl kullanabilirsin. Öğretim elemanımızın verdiği ipuçlarını not almak seni daha aktif tutabilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  Odağın oldukça azaldı. Şimdi önümüzdeki sınavda başarılı olmanın seni bir sonraki konuları öğrenmekte ne kadar motive edeceğini hayal et. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odaklanmakta zorlanıyor musun? Kendinle 20 dakika boyunca mobil cihazlara bakmamak için bir anlaşma yap. Her 20 dakika sonrası beşer dakikalık molalarla kendini ödüllendir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odaklanmakta zorlanıyor musun? Kendinle 20 dakika boyunca mobil cihazlara bakmamak için bir anlaşma yap. Her 20 dakika sonrası beşer dakikalık molalarla kendini ödüllendir. "
+				}
+			]
+		},
+		{
+			"id": "42",
+			"url": "https://drive.google.com/file/d/1UcM0A8-aZ4uGi9Epy3URTW7qer-XQQxO/view?usp=sharing",
+			"name": "ING101U - Neighbourhoods - Unit 6 -Soru -Çıkmış Sınav Soruları_2021-22 (ara sınav)",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Sınav sorularını çözmekte zorlanıyorsan eksik olduğunu düşündüğün kısımlar için konu anlatımlı videolara bakabilirsin."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın oldukça azaldı. Şimdi bu sınavda başarılı olmanın seni bir sonraki konuları öğrenmekte ne kadar motive edeceğini hayal et."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odaklanmakta zorlanıyor musun? Kendinle 20 dakika boyunca mobil cihazlara bakmamak için bir anlaşma yap. Her 20 dakika sonrası beşer dakikalık molalarla kendini ödüllendir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odaklanmakta zorlanıyor musun? Kendinle 20 dakika boyunca mobil cihazlara bakmamak için bir anlaşma yap. Her 20 dakika sonrası beşer dakikalık molalarla kendini ödüllendir."
+				}
+			]
+		},
+		{
+			"id": "43",
+			"url": "https://drive.google.com/file/d/1MyOQXWTY51FNHCBghcf8PB42xORjJwWa/view?usp=sharing",
+			"name": "ING101U - Out and About - Unit 7 - Kitap_pdf",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgini kaybetmiş görünüyorsun. Bu ünitede şimdiki zamanı öğreniyoruz. Bu ünitedeki hedeflere ulaşman, İngilizce öğrenme sürecinde sağlam bir temel için önemli olabilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin azalmış görünüyor. İngilizcede şimdiki zamanda cümleler kurmak, havadan sudan konuşmalar yapmayı öğrenmek yabancıların olduğu yeni ortamlarda daha olumlu bir izlenim yaratmana yardımcı olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  İlgin oldukça düştü. Dikkatini toplanmakta zorlanıyorsan birkaç derin nefes almayı deneyebilirsin. Derin nefesler seni gevşetip odaklanmana yardımcı olabilir. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  İlgin oldukça düştü. Dikkatini toplanmakta zorlanıyorsan birkaç derin nefes almayı deneyebilirsin. Derin nefesler seni gevşetip odaklanmana yardımcı olabilir."
+				}
+			]
+		},
+		{
+			"id": "44",
+			"url": "https://www.youtube.com/watch?v=SdC1e0z2YVw&t=1s",
+			"name": "ING101U - Out and About - Unit 7 - Konu Tabanlı Video_ ünite özet video",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu üniteye İngilizce öğrenirken ilk basamaklardan birisi olan şimdiki zaman ifadeleriyle başlıyoruz. Bu ifadeleri doğru öğrenmek yabancı birisiyle tanıştığında işine yarayacaktır. "
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlginin azaldığını gözlemliyoruz. Bu video gündelik yaşantımızda en çok kullandığımız zamanlardan birisi olan “şimdiki zaman” yapılarının kullanımıyla ilgili güzel bir anlatım içeriyor."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin. "
+				}
+			]
+		},
+		{
+			"id": "45",
+			"url": "https://www.youtube.com/watch?v=lafBOWJNmdc",
+			"name": "ING101U - Out and About - Unit 7 - Konu Tabanlı Video_ uzman anlatımı",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "   Odağın biraz azaldı. Bu ünite şimdiki zamanın kullanımını bağlam içerisinde ve eğlenceli bir şekilde açıklıyor. Videodakine benzer örnek cümleler yapmayı deneyebilirsin. Bu seni daha aktif tutar."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  Odağın oldukça azaldı. Bu video öğretici ve eğlenceli bir anlatımla şimdiki zamanı nasıl kullanacağımızı açıklıyor. Bağlam içinde verilen örnekler sana bu yapıyı nasıl kullanacağınla ilgili güzel örnekler içeriyor. Videoyu ara ara ara durdurup benzer cümleler kurmayı deneyebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  İlgin çok azaldı. Bu videoda bağlam içerisinde kullanılan örneklerin daha ayrıntılı anlatımları için kitabımızın pdf versiyonuna göz atabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " İlgin çok azaldı. Bu videoda bağlam içerisinde kullanılan örneklerin daha ayrıntılı anlatımları için kitabımızın pdf versiyonuna göz atabilirsin."
+				}
+			]
+		},
+		{
+			"id": "46",
+			"url": "https://www.youtube.com/watch?v=kLyHyLQ6cWU&t=1s",
+			"name": "ING101U - Out and About - Unit 7 - Soru Tabanlı Video_ kilit sorular",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Bu kısa videoda 7. ünitenin hedef yapılarıyla ilgili sınavda karşına çıkabilecek sorular var. Sorulara nasıl yaklaşman gerektiğini dinlersen sınavda işin kolaylaşır."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "   Odağın biraz azaldı. Bu soru tabanlı videodaki soruları öğretim elemanımızdan önce sen cevaplar mısın? Çözümlerdeki önerileri not edebilir ve benzer sorularda deneyebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  Odağın oldukça azaldı. Kendi öz-değerlendirmeni yapmak ve hangi noktalarda sorun yaşadığını tespit etmek için çıkmış sınav sorularındaki sorulara göz atabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın oldukça azaldı. Kendi öz-değerlendirmeni yapmak ve hangi noktalarda sorun yaşadığını tespit etmek için çıkmış sınav sorularındaki sorulara göz atabilirsin."
+				}
+			]
+		},
+		{
+			"id": "47",
+			"url": "https://www.youtube.com/watch?v=QDJ6XvozeuE&t=1s",
+			"name": "ING101U - Out and About - Unit 7 - Soru Tabanlı Video_ 1 soru 1 cevap",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Bu bölümde 7. ünitenin hedef yapılarıyla ilgili daha önceki yıllarda çıkmış soruların çözümleri var. Bu video sana benzer soruları nasıl çözmen gerektiğiyle ilgili taktikler kazandırabilir.  "
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Öğretim elemanımızın çıkmış soruları nasıl çözebileceğimizle ilgili verdiği taktikleri farklı sorularla uygulamaya ne dersin? Bu videoya yeterince odaklanman çıkmış sınav sorularını çözerken işini kolaylaştıracaktır. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  Odağın çok düştü. Çıkmış sınav sorularını videoyu durdurup önce sen cevapla. Bu seni daha aktif tutacaktır. Sorularda zorlanıyorsan özet konu anlatımı içeren videoya geri dönebilirsin.  "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın çok düştü. Çıkmış sınav sorularını videoyu durdurup önce sen cevapla. Bu seni daha aktif tutacaktır. Sorularda zorlanıyorsan özet konu anlatımı içeren videoya geri dönebilirsin."
+				}
+			]
+		},
+		{
+			"id": "48",
+			"url": "https://ekampus.anadolu.edu.tr/#/materialdisplay?sourceurl=https%3A%2F%2Fvk21.anadolu.edu.tr%2Fplayback%2Fpresentation%2F2.3%2F9a62fc2549586379fcd1cbee3d735da54927b960-1638292033387&turnbackurl=%2Fmaterials%2FPersonel%2FING101U%2FİNGİLİZCE%20I%2FLIVE_COURSE%2FALL&materialid=414437&materialrate=0&materialname=Canlı%20Ders%20Kayıtları&courseurlcode=ING101U&materialtype=LIVE_COURSE&fileextension=youtube/link",
+			"name": "ING101U - Out and About - Unit 7 - Canlı Ders Kayıtları_2021-22_hafta 7",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "   Odağın biraz azaldı. Bu ünitede günlük yaşamda sıkça kullandığımız şimdi zaman ifadelerini öğreniyoruz. Bu ifadeleri doğru öğrenmek yabancı birisiyle tanıştığında işine yarayacaktır."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  İlginin azaldığını gözlemliyoruz. Bu videoda öğretim elemanımız İngilizcede şimdiki zamanın kullanımıyla ilgili ayrıntılı açıklamalarda bulunuyor. Videoya odaklanman konuyu kavrama yardım edebilir. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "   Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin."
+				}
+			]
+		},
+		{
+			"id": "49",
+			"url": "https://drive.google.com/file/d/1nVP16ybSQCbgUW7KHZigPikzawplKlIP/view?usp=sharing",
+			"name": "ING101U - Out and About - Unit 7 - Çıkmış Sınav Soruları_2021_2022",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "   Odağın biraz azaldı. Bu ünitede günlük yaşamda sıkça kullandığımız şimdi zaman ifadelerini öğreniyoruz. Bu ifadeleri doğru öğrenmek yabancı birisiyle tanıştığında işine yarayacaktır."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  İlginin azaldığını gözlemliyoruz. Bu videoda öğretim elemanımız İngilizcede şimdiki zamanın kullanımıyla ilgili ayrıntılı açıklamalarda bulunuyor. Videoya odaklanman konuyu kavrama yardım edebilir. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "   Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin."
+				}
+			]
+		},
+		{
+			"id": "50",
+			"url": "https://drive.google.com/file/d/1yHpOh0GwhA3IDbllGr1hBP6EkaGYnNmf/view?usp=sharing",
+			"name": "ING101U - Out and About - Unit 7 - Çıkmış Sınav Soruları_2019_2020",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "   Odağın biraz azaldı. Bu ünitede günlük yaşamda sıkça kullandığımız şimdi zaman ifadelerini öğreniyoruz. Bu ifadeleri doğru öğrenmek yabancı birisiyle tanıştığında işine yarayacaktır."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  İlginin azaldığını gözlemliyoruz. Bu videoda öğretim elemanımız İngilizcede şimdiki zamanın kullanımıyla ilgili ayrıntılı açıklamalarda bulunuyor. Videoya odaklanman konuyu kavrama yardım edebilir. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "   Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin."
+				}
+			]
+		},
+		{
+			"id": "51",
+			"url": "https://drive.google.com/file/d/1wv2YEotQxwX_Es7xlGHRMcM3SDdEjZ82/view?usp=sharing",
+			"name": "ING101U - Shopping - Unit 8 - Kitap_pdf",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düşmüş görünüyor. Bu ünitedeki etkinlikler yabancı dilde alışveriş yaparken oldukça işini kolaylaştıracaktır. Giysilerden, renklerden, alışverişten ve fiyatlardan söz etmek gündelik hayatta en çok arşımıza çıkan ifadelerdir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bazı öğrenenler için metin üzerinden çalışmak bazen sıkıcı olabilir. Bu konuya daha iyi odaklanmak için aynı ünitenin uzman anlatımlı videosunu izlemeye ne dersin?  "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın oldukça azalmış görünüyor. Çalışmaya küçük bir ara vermek iyi bir fikir olabilir. Bu esnada, yabancı bir ülkede alışverişe çıktığını ve öğrendiğin bu ifadeleri orada kullandığında nasıl hissettiğini hayal edebilirsin.  "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odağın oldukça azalmış görünüyor. Çalışmaya küçük bir ara vermek iyi bir fikir olabilir. Bu esnada, yabancı bir ülkede alışverişe çıktığını ve öğrendiğin bu ifadeleri orada kullandığında nasıl hissettiğini hayal edebilirsin."
+				}
+			]
+		},
+		{
+			"id": "52",
+			"url": "https://www.youtube.com/watch?v=xft6Z-HBe2c&t=1s",
+			"name": "ING101U - Shopping - Unit 8 - Konu Tabanlı Video _Ünite özeti",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu videoyu izleyerek 8. Ünitenin konularını öğretim elemanımızla birlikte tekrar edebilirsin. Videoyu izlerken öğretim elemanımızın verdiği örneklere benzer cümleler kurup konuyu pekiştirebilirsin."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Gözlerini videodaki öğretim elemanımıza odaklaman ve eğer yakınında mobil telefon gibi çeldiriciler varsa onları bir süreliğine uzaklaştırman dikkatini toplamada işine yarayabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın çok azaldı. Pasif bir şekilde video izlemek odağını düşürmüş olabilir. Şimdi kendine bu videodaki kazanımlara ulaşmakla ilgili bir hedef belirle. Bu hedefe ulaşmak için neler yapabileceğini düşün. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın çok azaldı. Pasif bir şekilde video izlemek odağını düşürmüş olabilir. Şimdi kendine bu videodaki kazanımlara ulaşmakla ilgili bir hedef belirle. Bu hedefe ulaşmak için neler yapabileceğini düşün."
+				}
+			]
+		},
+		{
+			"id": "53",
+			"url": "https://www.youtube.com/watch?v=5P77MIYElyE&t=1s",
+			"name": "ING101U - Shopping - Unit 8 - Konu Tabanlı Video _uzman anlatımı",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu video 8. ünitenin hedef yapılarını bağlam içerisinde göstererek bu yapıların gerçek hayattaki kullanımlarıyla ilgili güzel örnekler sunuyor. Dilersen sen de bu yapıları hangi farklı bağlamlarda kullanabileceğini düşünebilirsin."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin oldukça düştü. Bu videoda konuları gerçek hayattan örneklerle öğreniyoruz. Bu örneklerin daha ayrıntılı anlatımları için konu anlatımlı videoya ya da kitabımızın pdf versiyonuna göz atabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın çok azaldı. Pasif bir şekilde video izlemek odağını düşürmüş olabilir. Bu konuyu pekiştirmek için çıkmış sınav sorularına göz atabilirsin. Soruları çözerken daha aktif olacağından ilgin artabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın çok azaldı. Pasif bir şekilde video izlemek odağını düşürmüş olabilir. Bu konuyu pekiştirmek için çıkmış sınav sorularına göz atabilirsin. Soruları çözerken daha aktif olacağından ilgin artabilir."
+				}
+			]
+		},
+		{
+			"id": "54",
+			"url": "https://www.youtube.com/watch?v=wJCBtXpsRWo",
+			"name": "ING101U - Shopping - Unit 8 - Soru Tabanlı Video _kilit sorular",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. 8. Ünitenin kazanımlarını içeren örnek sorularla hazırlanmış bu video sınavda işini kolaylaştırabilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  İlgin biraz azaldı. Bu videodaki sorulara odaklanmana engel olacak çevresel uyaranlardan uzaklaşmak için kulaklık takabilir, cep telefonunu bir süre uzağında tutabilir ya da odak arttırıcı bir müzik açabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  İlgin oldukça azaldı. Bu videodaki soruları cevaplamakta zorlanmıyorsan çalışmanı sonlandırabilirsin. Soruları çözmekte zorlanıyorsan bu konuyla ilgili konu tabanlı videoya göz atabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  İlgin oldukça azaldı. Bu videodaki soruları cevaplamakta zorlanmıyorsan çalışmanı sonlandırabilirsin. Soruları çözmekte zorlanıyorsan bu konuyla ilgili konu tabanlı videoya göz atabilirsin."
+				}
+			]
+		},
+		{
+			"id": "55",
+			"url": "https://www.youtube.com/watch?v=hYIAvesrEX4",
+			"name": "ING101U - Shopping - Unit 8 - Soru Tabanlı Video _1 soru 1 cevap",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "     Odağın biraz düştü. Bu videoda 8. ünitenin hedef yapılarıyla ilgili önceki yıllarda çıkmış soruların çözümleri var. Soruları öğretim elemanımız yanıtlamadan önce sen yanıtla. Performansını 1-10 arası bir puan vererek değerlendir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "    Odağın biraz azaldı. Bu bölümdeki soruları öğretim elemanımızdan önce videoyu durdurarak sen yanıtla. Sorulara doğru cevap verdiysen bir sonraki üniteye çalışmak için artık hazırsın demektir. Sorularda zorlanıyorsan konu tabanlı videoya dönebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  Odaklanmakta zorlanıyorsan birkaç dakikalık küçük bir ara tekrar odaklanmana yardımcı olabilir. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odaklanmakta zorlanıyorsan birkaç dakikalık küçük bir ara tekrar odaklanmana yardımcı olabilir."
+				}
+			]
+		},
+		{
+			"id": "56",
+			"url": "https://www.youtube.com/watch?v=hYIAvesrEX4",
+			"name": "ING101U - Shopping - Unit 8 - Canlı Ders Kayıtları-2021-22_hafta 8",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu kayıtta, öğretim elamanımız bu ünitenin önemli noktalarını ayrıntılı bir şekilde anlatıyor. Videoya odaklanmak için belirli aralıklarla kaydı durdurabilir, slaytlardaki boşlukları doldurmaya çalışarak kendini aktif tutabilirsin. "
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlginin azaldığını gözlemliyoruz. Bu videoda öğretim elemanımız 8. Ünitenin teması olan alışveriş ifadeleriyle ilgili ayrıntılı açıklamalarda bulunuyor. Videoya odaklanman konuyu kavrama yardım edebilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin."
+				}
+			]
+		},
+		{
+			"id": "57",
+			"url": "https://drive.google.com/file/d/1nVP16ybSQCbgUW7KHZigPikzawplKlIP/view?usp=sharing",
+			"name": "ING101U - Shopping - Unit 8  - Çıkmış Sınav Soruları_2021_2022_dönem sonu",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  Odağın biraz düştü. Bu bölümde 8. ünitenin hedef yapılarıyla ilgili geçmiş yıllarda çıkmış sorular var. Sorulardaki performansın bu ünitedeki eksiklerini anlamana yardımcı olabilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu bölümdeki sorulardaki performansını değerlendir. İlk sorulara doğru cevap verdiysen bir sonraki üniteye çalışmak için artık hazırsın demektir. Sorularda zorlanıyorsan konu tabanlı videoya dönebilirsin. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odaklanmakta zorlanıyorsan birkaç dakikalık küçük bir ara tekrar odaklanmana yardımcı olabilir"
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odaklanmakta zorlanıyorsan birkaç dakikalık küçük bir ara tekrar odaklanmana yardımcı olabilir"
+				}
+			]
+		},
+		{
+			"id": "58",
+			"url": "https://drive.google.com/file/d/1yHpOh0GwhA3IDbllGr1hBP6EkaGYnNmf/view?usp=sharing",
+			"name": "ING101U - Shopping - Unit 8  - Çıkmış Sınav Soruları_2019_2020_dönem sonu",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  Odağın biraz düştü. Bu bölümde 8. ünitenin hedef yapılarıyla ilgili geçmiş yıllarda çıkmış sorular var. Sorulardaki performansın bu ünitedeki eksiklerini anlamana yardımcı olabilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu bölümdeki sorulardaki performansını değerlendir. İlk sorulara doğru cevap verdiysen bir sonraki üniteye çalışmak için artık hazırsın demektir. Sorularda zorlanıyorsan konu tabanlı videoya dönebilirsin. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odaklanmakta zorlanıyorsan birkaç dakikalık küçük bir ara tekrar odaklanmana yardımcı olabilir"
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odaklanmakta zorlanıyorsan birkaç dakikalık küçük bir ara tekrar odaklanmana yardımcı olabilir. "
+				}
+			]
+		},
+		{
+			"id": "59",
+			"url": "https://drive.google.com/file/d/1ht6RI1RTf1BWl15TS07e3Oz70r0rIqP9/view?usp=sharing",
+			"name": "ING101U - A Wide World - Unit 9  - Kitap_pdf",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin biraz azalmış görünüyor. Bu ünitede oldukça ilgi çekici ve günlük hayatta çok işine yarayacak ifade ve kalıplar var. Odaklanmayı yeniden dene."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Dikkatini toplamakta zorlanıyor musun? Bu ünitedeki ifadeleri kullanarak şehrinizde yapabileceğiniz şeylerden rahatlıkla söz edebilir ve şehrinize gelen turistlere önerilerde bulunabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın oldukça azaldı. Metin üzerinden çalışmakta zorlanmış olabilirsin. Aynı ünitenin canlı ders kayıtlarına göz atmak ister misin? Görsel-işitsel ders anlatımı daha ilgi çekici olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın oldukça azaldı. Metin üzerinden çalışmakta zorlanmış olabilirsin. Aynı ünitenin canlı ders kayıtlarına göz atmak ister misin? Görsel-işitsel ders anlatımı daha ilgi çekici olabilir."
+				}
+			]
+		},
+		{
+			"id": "60",
+			"url": "https://www.youtube.com/watch?v=qtW6yOcp-ig&t=1s",
+			"name": "ING101U - A Wide World - Unit 9  - Konu Tabanlı Video_özet anlatım",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu ünitede şehrimizde yapabileceğimiz şeyleri tarif etmeyi öğreniyoruz. Öğretim elemanımızın verdiği örnekleri izledikten sonra videoyu durdurup Eskişehir’de neler yapabileceğimizi anlatan birkaç cümle yazmayı dene. Yapabildiğini görmek odağını toplamana yardımcı olacak."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlginde biraz azalma gözlemliyoruz. Dil öğrenmek ona yeterli zaman ayırdığında ve gerekli çabayı gösterdiğinde eğlenceli bir süreçtir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın çok düştü. Çalışmaya kısa bir içecek molası vermek sonra tekrar dikkatini toplamada etkili olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın çok düştü. Çalışmaya kısa bir içecek molası vermek sonra tekrar dikkatini toplamada etkili olabilir."
+				}
+			]
+		},
+		{
+			"id": "61",
+			"url": "https://www.youtube.com/watch?v=yUOocg9yRL0&t=1s",
+			"name": "ING101U - A Wide World - Unit 9  - Soru Tabanlı Video_kilit sorular",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  İlginde biraz azalma gözlemliyoruz. 9. ünitenin kazanımlarıyla ilgili örnek sorular içeren bu videoda öğrendiğin yeni bir strateji var mı? Bu stratejinin benzer soruları çözerken işine yarayacağından emin olabilirsin."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  Odağın biraz düştü. Odaklanmanı arttırmak için beyninin Alpha frekansına geçişini kolaylaştıracak müziklere YouTube gibi video paylaşım sitelerinden erişebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın fazlasıyla düştü. Dikkatini dağıtan çevresel uyaranları bir süre göz ardı etmeye ne dersin? İşe cep telefonuna 10 dakika hiç bakmamakla ilgili bir meydan okumayla başlayabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın fazlasıyla düştü. Dikkatini dağıtan çevresel uyaranları bir süre göz ardı etmeye ne dersin? İşe cep telefonuna 10 dakika hiç bakmamakla ilgili bir meydan okumayla başlayabilirsin."
+				}
+			]
+		},
+		{
+			"id": "62",
+			"url": "https://www.youtube.com/watch?v=3kakw2b6ZMM",
+			"name": "ING101U - A Wide World - Unit 9  - Soru Tabanlı Video_1 soru 1 cevap",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Bu bölümde 9. ünitenin hedef yapılarıyla ilgili önceki yıllarda çıkmış soruların çözümleri var.  Bu video sana benzer soruları nasıl çözmen gerektiğiyle ilgili taktikler kazandırabilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu videoda soruları çözerken nelere dikkat etmen gerektiğiyle ilgili önemli ipuçları yakalayabilirsin. Bu ipuçlarını çıkmış sınav sorularına dönerek kullanabilir, soruları çözerken kendine yeni stratejiler edinebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın çok düştü. Çıkmış sınav sorularındaki performansın konuyu anlayıp anlamadığınla ilgili bir değerlendirme yapmana yardımcı olabilir. Soruları cevaplamakta zorlanmıyorsan bir sonraki üniteye geçmeye hazırsın demektir. Zorlanıyorsan uzman anlatımları videomuz hem eğlenceli hem de öğretici bir anlatımla sana yardımcı olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odağın çok düştü. Çıkmış sınav sorularındaki performansın konuyu anlayıp anlamadığınla ilgili bir değerlendirme yapmana yardımcı olabilir. Soruları cevaplamakta zorlanmıyorsan bir sonraki üniteye geçmeye hazırsın demektir. Zorlanıyorsan uzman anlatımları videomuz hem eğlenceli hem de öğretici bir anlatımla sana yardımcı olabilir."
+				}
+			]
+		},
+		{
+			"id": "63",
+			"url": "https://ekampus.anadolu.edu.tr/#/materialdisplay?sourceurl=https%3A%2F%2Fvk21.anadolu.edu.tr%2Fplayback%2Fpresentation%2F2.3%2F9a62fc2549586379fcd1cbee3d735da54927b960-1639501355872&turnbackurl=%2Fmaterials%2FPersonel%2FING101U%2FİNGİLİZCE%20I%2FLIVE_COURSE%2FALL&materialid=417284&materialrate=0&materialname=Canlı%20Ders%20Kayıtları&courseurlcode=ING101U&materialtype=LIVE_COURSE&fileextension=youtube/link",
+			"name": "ING101U - A Wide World - Unit 9  - Canlı Ders Kayıtları_2021-22_hafta 9",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu ünitede şehrimizde yapabileceğimiz şeyleri tarif etmeyi öğreniyoruz. Öğretim elemanımızın açıklarını izledikten sonra memleketine ziyarete gelen bir turiste önerilerde bulunman gerekse neler söyleyebileceğinle ilgili cümleler düşün. Yapabildiğini görmek iyi hissettirecektir. "
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlginde biraz azalma gözlemliyoruz. Dil öğrenmek ona yeterli zaman ayırdığında ve gerekli çabayı gösterdiğinde eğlenceli bir süreçtir. Videoya odaklanmakta zorlanıyorsan kitabın pdf formatına dönebilir, sadece zorlandığın noktalara odaklanmayı deneyebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın çok düştü. Çalışmaya kısa bir içecek molası vermek sonra tekrar dikkatini toplamada etkili olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odağın çok düştü. Çalışmaya kısa bir içecek molası vermek sonra tekrar dikkatini toplamada etkili olabilir."
+				}
+			]
+		},
+		{
+			"id": "64",
+			"url": "https://drive.google.com/file/d/1nVP16ybSQCbgUW7KHZigPikzawplKlIP/view?usp=sharing",
+			"name": "ING101U - A Wide World - Unit 9  - Çıkmış Sınav Soruları_2021-2022_dönem sonu",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Bu bölümde 9. ünitenin hedef yapılarıyla ilgili çıkmış sorular var. Sorulardaki performansın bu ünitedeki eksiklerini anlamana yardımcı olabilir. "
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu bölümdeki ilgili sorulardaki performansını değerlendir. Sorulara doğru cevap verdiysen bir sonraki üniteye çalışmak için artık hazırsın demektir. Sorularda zorlanıyorsan konu tabanlı videoya dönebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın çok düştü. Çıkmış sınav sorularındaki performansın konuyu anlayıp anlamadığınla ilgili bir değerlendirme yapmana yardımcı olabilir. Soruları cevaplamakta zorlanmıyorsan bir sonraki üniteye geçmeye hazırsın demektir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odağın çok düştü. Çıkmış sınav sorularındaki performansın konuyu anlayıp anlamadığınla ilgili bir değerlendirme yapmana yardımcı olabilir. Soruları cevaplamakta zorlanmıyorsan bir sonraki üniteye geçmeye hazırsın demektir."
+				}
+			]
+		},
+		{
+			"id": "65",
+			"url": "https://drive.google.com/file/d/1yHpOh0GwhA3IDbllGr1hBP6EkaGYnNmf/view?usp=sharing",
+			"name": "ING101U - A Wide World - Unit 9  - Çıkmış Sınav Soruları_2019-2020_dönem sonu",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Bu bölümde 9. ünitenin hedef yapılarıyla ilgili çıkmış sorular var. Sorulardaki performansın bu ünitedeki eksiklerini anlamana yardımcı olabilir. "
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu bölümdeki ilgili sorulardaki performansını değerlendir. Sorulara doğru cevap verdiysen bir sonraki üniteye çalışmak için artık hazırsın demektir. Sorularda zorlanıyorsan konu tabanlı videoya dönebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın çok düştü. Çıkmış sınav sorularındaki performansın konuyu anlayıp anlamadığınla ilgili bir değerlendirme yapmana yardımcı olabilir. Soruları cevaplamakta zorlanmıyorsan bir sonraki üniteye geçmeye hazırsın demektir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odağın çok düştü. Çıkmış sınav sorularındaki performansın konuyu anlayıp anlamadığınla ilgili bir değerlendirme yapmana yardımcı olabilir. Soruları cevaplamakta zorlanmıyorsan bir sonraki üniteye geçmeye hazırsın demektir."
+				}
+			]
+		},
+		{
+			"id": "66",
+			"url": "https://drive.google.com/file/d/1ZcG4YZx9n0G3Pet44UtKYLcjIj1374zy/view?usp=sharing",
+			"name": "ING101U - Busy Lives - Unit 10  - Kitap_pdf",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin biraz azalmış görünüyor. Bu ünitenin kazanımlarına göz attın mı? Günlük hayatta oldukça işine yarayacak geçmiş zamanla cümle kurmayı öğrenmek için üniteyi biraz daha odaklanarak çalışmaya ne dersin?"
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Dikkatin dağılmış görünüyor. Eğer daha iyi odaklanırsan bu ünitenin kazanımlarına ulaşmada zorlanmayacağından eminim."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " İlgin oldukça azaldı. Kısa bir molaya ne dersin?"
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  İlgin oldukça azaldı. Kısa bir molaya ne dersin? "
+				}
+			]
+		},
+		{
+			"id": "67",
+			"url": "https://www.youtube.com/watch?v=Uy0sOeNPi8M&t=1s",
+			"name": "ING101U - Busy Lives - Unit 10  - Konu Tabanlı Video_Ünite özet",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin biraz azaldı. Şimdi dün akşam neler yaptığını tanıştığın yabancı bir turiste anlattığını düşün. Yapabildiğini görmek seni motive edecektir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağında düşüş gözlemliyoruz. Bu video 10. Üniteyi oldukça açık bir şekilde özetliyor. Pasif kalmak seni biraz sıkmış olabilir fakat buna rağmen videoyu tamamlamak için çaba sarf etmen etkili bir konu tekrarı yapman için önemli olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  Odağın oldukça düştü. Eğer video izlerken pasif kalmak seni sıktıysa ders kitabına dönebilir ve sadece ihtiyacın olduğunu düşündüğün kısımlardaki konulara odaklanabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "   Odağın oldukça düştü. Eğer video izlerken pasif kalmak seni sıktıysa ders kitabına dönebilir ve sadece ihtiyacın olduğunu düşündüğün kısımlardaki konulara odaklanabilirsin."
+				}
+			]
+		},
+		{
+			"id": "68",
+			"url": "https://www.youtube.com/watch?v=Ynwo9_uhbA4&t=1s",
+			"name": "ING101U - Busy Lives - Unit 10  - Konu Tabanlı Video_uzman anlatımı",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin biraz azaldı. Bu videoda karakterlerimiz geçmiş yaşama odaklanıyorlar. Sen dün neler yaptın? Şimdi bu soruya karakterlerimizin verdiği örneklere benzer cümleler kurarak cevap ver. Yeterince denersen bu konuyu pekiştirebilir ve gündelik yaşamda geçmiş zaman ifadelerini ustalıkla kullanabilirsin."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağında düşüş gözlemliyoruz. Bu video 10. Ünitedeki konuların kullanımını bağlam içerisinde sergiliyor. Pasif kalmak seni biraz sıkmış olabilir fakat buna rağmen videoyu tamamlamak için çaba sarf etmen etkili bir konu tekrarı yapman için önemli olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "Odağın oldukça düştü. Eğer video izlerken pasif kalmak seni sıktıysa ders kitabına dönebilir ve sadece ihtiyacın olduğunu düşündüğün kısımlardaki konulara odaklanabilirsin. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın oldukça düştü. Eğer video izlerken pasif kalmak seni sıktıysa ders kitabına dönebilir ve sadece ihtiyacın olduğunu düşündüğün kısımlardaki konulara odaklanabilirsin."
+				}
+			]
+		},
+		{
+			"id": "69",
+			"url": "https://www.youtube.com/watch?v=WNKRDuVkMtE&t=1s",
+			"name": "ING101U - Busy Lives - Unit 10  - Soru Tabanlı Video_kilit sorular",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü.   Geçmiş yılların çıkmış sorularından oluşan bu video, sınavda karşına çıkacak soruları nasıl çözmen gerektiğiyle ilgili sana fikir verebilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin biraz azaldı. Bu videodaki örnek sorulara odaklanmakta zorlanıyorsan ünitenin özetini içeren konu tabanlı videoyu izleyerek konuyu hatırlayabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  İlgin oldukça azaldı. Bu sorularda zorlandığın noktaları not edebilir, bu noktaların tekrarı için konu tabanlı özet videoyu izleyebilirsin.  "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  İlgin oldukça azaldı. Bu sorularda zorlandığın noktaları not edebilir, bu noktaların tekrarı için konu tabanlı özet videoyu izleyebilirsin."
+				}
+			]
+		},
+		{
+			"id": "70",
+			"url": "https://www.youtube.com/watch?v=upHvGwre1XY",
+			"name": "ING101U - Busy Lives - Unit 10  - Soru Tabanlı Video_1 soru 1 cevap",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Bu bölümde 10. ünitenin hedef yapılarıyla ilgili daha önceki yıllarda çıkmış sorular var. Bu sorulara doğru cevap veriyorsan kendini daha önceki yılların sorularıyla denemeye ne dersin??"
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu sorulara öğretim elemanımız soruyu cevaplamadan cevap vermeyi dene. Sorulara doğru cevap verdiysen bir sonraki üniteye çalışmak için artık hazırsın demektir. Sorularda zorlanıyorsan konu tabanlı videoya dönebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  İlgin oldukça azaldı. Soru çözerken odağını toplayamazsan gerçek performansını sergilemekte zorlanabilirsin. Biraz ara vermek sana iyi gelebilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  İlgin oldukça azaldı. Soru çözerken odağını toplayamazsan gerçek performansını sergilemekte zorlanabilirsin. Biraz ara vermek sana iyi gelebilir."
+				}
+			]
+		},
+		{
+			"id": "71",
+			"url": "https://ekampus.anadolu.edu.tr/#/materialdisplay?sourceurl=https%3A%2F%2Fvk21.anadolu.edu.tr%2Fplayback%2Fpresentation%2F2.3%2F9a62fc2549586379fcd1cbee3d735da54927b960-1640106214373&turnbackurl=%2Fmaterials%2FPersonel%2FING101U%2FİNGİLİZCE%20I%2FLIVE_COURSE%2FALL&materialid=418166&materialrate=0&materialname=Canlı%20Ders%20Kayıtları&courseurlcode=ING101U&materialtype=LIVE_COURSE&fileextension=youtube/link",
+			"name": "ING101U - Busy Lives - Unit 10  - Canlı Ders Kayıtları_2021-22_hafta 10",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin biraz azaldı. Şimdi bu ünitenin konusu olan geçmişte yaptığımız eylemleri yeni tanıştığın yabancı bir turiste anlattığını düşün. Yapabildiğini görmek seni motive edecektir.?"
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "   Odağında düşüş gözlemliyoruz. Bu kayıt 10. üniteyi oldukça açık bir şekilde özetliyor. Pasif kalmak seni biraz sıkmış olabilir fakat buna rağmen videoyu tamamlamak için çaba sarf etmen etkili bir konu tekrarı yapman için önemli olabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın oldukça düştü. Eğer video izlerken pasif kalmak seni sıktıysa ders kitabına dönebilir ve sadece ihtiyacın olduğunu düşündüğün kısımlardaki konulara odaklanabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "   Odağın oldukça düştü. Eğer video izlerken pasif kalmak seni sıktıysa ders kitabına dönebilir ve sadece ihtiyacın olduğunu düşündüğün kısımlardaki konulara odaklanabilirsin."
+				}
+			]
+		},
+		{
+			"id": "72",
+			"url": "https://drive.google.com/file/d/1nVP16ybSQCbgUW7KHZigPikzawplKlIP/view?usp=sharing",
+			"name": "ING101U - Busy Lives - Unit 10  - Çıkmış Sınav Soruları_2021-22 (dönem sonu)",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "    Odağın biraz düştü. Bu bölümde 10. ünitenin hedef yapılarıyla ilgili daha önceki yıllarda çıkmış sorular var. Bu sorulara doğru cevap veriyorsan kendini daha önceki yılların sorularıyla denemeye ne dersin?"
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu sorulara doğru cevap verdiysen bir sonraki üniteye çalışmak için artık hazırsın demektir. Sorularda zorlanıyorsan konu tabanlı videoya dönebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  İlgin oldukça azaldı. Soru çözerken odağını toplayamazsan gerçek performansını sergilemekte zorlanabilirsin. Biraz ara vermek sana iyi gelebilir. ."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " İlgin oldukça azaldı. Soru çözerken odağını toplayamazsan gerçek performansını sergilemekte zorlanabilirsin. Biraz ara vermek sana iyi gelebilir. "
+				}
+			]
+		},
+		{
+			"id": "73",
+			"url": "https://drive.google.com/file/d/1yHpOh0GwhA3IDbllGr1hBP6EkaGYnNmf/view?usp=sharing",
+			"name": "ING101U - Busy Lives - Unit 10  - Çıkmış Sınav Soruları_2019-20 (dönem sonu)",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "    Odağın biraz düştü. Bu bölümde 10. ünitenin hedef yapılarıyla ilgili daha önceki yıllarda çıkmış sorular var. Bu sorulara doğru cevap veriyorsan kendini daha önceki yılların sorularıyla denemeye ne dersin?"
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu sorulara doğru cevap verdiysen bir sonraki üniteye çalışmak için artık hazırsın demektir. Sorularda zorlanıyorsan konu tabanlı videoya dönebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  İlgin oldukça azaldı. Soru çözerken odağını toplayamazsan gerçek performansını sergilemekte zorlanabilirsin. Biraz ara vermek sana iyi gelebilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " İlgin oldukça azaldı. Soru çözerken odağını toplayamazsan gerçek performansını sergilemekte zorlanabilirsin. Biraz ara vermek sana iyi gelebilir. "
+				}
+			]
+		},
+		{
+			"id": "74",
+			"url": "https://drive.google.com/file/d/1-y-U6ldx7z7gMzIPEhfnUn6IplqqesuT/view?usp=sharing",
+			"name": "ING101U - Looking Back - Unit 11 - Kitap_pdf",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  Odağın biraz düşmüş görünüyor. Bu ünitenin teması geçmiş yaşam. Günlük yaşamımızda bu konudan sıkça bahsediyoruz. Geçmişte olanlardan yabancı arkadaşlarına bahsedebilmek sana iyi hissettirmez miydi?"
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odaklanmakta sorun mu yaşıyorsun? Bu ünitede geniş zamanı pekiştirmeye devam ediyoruz. Senin de bildiğin gibi geniş zaman günlük iletişimimizin önemli bir kısmında sıkça kullandığımız zamanlardan birisi. Bu ünitedeki kazanımlar İngilizce öğrenmede sana iyi bir temel sağlayabilir. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "   İlgini canlı tutmakta zorlanıyor gibisin. Canlı ders kayıtları bu ünitedeki konuları daha farklı bir öğrenme ortamında bizlere aktarıyor. Bu kayıtlara bir göz atalım mı?"
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  İlgini canlı tutmakta zorlanıyor gibisin. Canlı ders kayıtları bu ünitedeki konuları daha farklı bir öğrenme ortamında bizlere aktarıyor. Bu kayıtlara bir göz atalım mı?"
+				}
+			]
+		},
+		{
+			"id": "75",
+			"url": "https://www.youtube.com/watch?v=cQzFzoc0Rf0",
+			"name": "ING101U - Looking Back - Unit 11 - Konu Tabanlı Video_ünite özet",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlginde biraz azalma tespit ettik. Bu ünitede geçmiş zaman etkinliklerini anlatabilmen için gerekecek yeni kelimeler öğreneceksin. Bu kelimeleri cümle içinde kullanmayı deneyebilirsin. Birkaç denemeden sonra yapabildiğini görmek ilgini arttırabilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlginde azalma gözlemliyorum. Bu videoyu daha aktif bir şekilde izleyebilmen için aralıklarla durdurup geçmişte yaşadığın deneyimleri ve bu deneyimler esnasında nasıl hissettiğini düşünebilir ve cümle kurma denemeleri yapabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " İlgin oldukça azaldı. Bu konuyu canlı ders ortamında anlatan öğretim elemanlarımızın kayıtlarına göz atabilirsin. Farklı öğrenme materyallerini keşfetmek kendin için hangisinin en faydalı olduğunu bulman için önemlidir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "     İlgin oldukça azaldı. Bu konuyu canlı ders ortamında anlatan öğretim elemanlarımızın kayıtlarına göz atabilirsin. Farklı öğrenme materyallerini keşfetmek kendin için hangisinin en faydalı olduğunu bulman için önemlidir."
+				}
+			]
+		},
+		{
+			"id": "76",
+			"url": "https://www.youtube.com/watch?v=DR7uvLFCxTY",
+			"name": "ING101U - Looking Back - Unit 11 - Konu Tabanlı Video_uzman anlatımı",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  İlgin biraz azaldı. Uzman anlatımı videomuzun 5. dakikasında başlayan sıra sende kısmına yanıt vermeyi denedin mi? Yanıt vermekte zorlanıyorsan konu tabanlı videomuza dönerek bu konunun ayrıntılı anlatımını dinleyebilirsin."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  İlginde azalma gözlemliyorum. Bu videoyu daha aktif bir şekilde izleyebilmen için aralıklarla durdurup geçmişte yaptığın eylemlerden bahsetmeyi deneyebilirsin. Performansını 1-10 arası bir puan vermen gerekse kaç verirdin?"
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " İlgin oldukça azaldı. Bu konuyu canlı ders ortamında anlatan öğretim elemanlarımızın kayıtlarına göz atabilirsin. Farklı öğrenme materyallerini keşfetmek kendin için hangisinin en faydalı olduğunu bulman için önemlidir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  İlgin oldukça azaldı. Bu konuyu canlı ders ortamında anlatan öğretim elemanlarımızın kayıtlarına göz atabilirsin. Farklı öğrenme materyallerini keşfetmek kendin için hangisinin en faydalı olduğunu bulman için önemlidir."
+				}
+			]
+		},
+		{
+			"id": "77",
+			"url": "https://www.youtube.com/watch?v=chvVq7PLrpM",
+			"name": "ING101U - Looking Back - Unit 11 - Soru Tabanlı Video_kilit sorular",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  İlginin biraz azaldığını gözlemliyoruz. Bu videoda izlediğin örnek soru çözümleri sana sınavlarda yardımcı olabilecek taktikler içeriyor. Bu taktikleri not almaya ne dersin? Bu seni video izlerken daha aktif tutabilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  İlgin biraz azaldı. Bu videoyu her yeni soruda durdurup öğretim elemanımızın sorduğu soruları önce sen cevapla. Tüm sorulara verdiğin yanıtların cevaplarını düşünerek performansına puan ver. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın fazlasıyla düştü. Sınavlarda karşına çıkabilecek soruların çözümlerinden oluşan bu video seni zorluyorsa konu tekrarı için konu tabanlı videoya geri dönebilirsin. Benzer soruları çözmekteki performansını görmek için çıkmış sınav sorularına göz atabilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odağın fazlasıyla düştü. Sınavlarda karşına çıkabilecek soruların çözümlerinden oluşan bu video seni zorluyorsa konu tekrarı için konu tabanlı videoya geri dönebilirsin. Benzer soruları çözmekteki performansını görmek için çıkmış sınav sorularına göz atabilirsin."
+				}
+			]
+		},
+		{
+			"id": "78",
+			"url": "https://www.youtube.com/watch?v=TC8FASncSuo",
+			"name": "ING101U - Looking Back - Unit 11 - Soru Tabanlı Video_1 soru 1 cevap",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Şimdi gireceğin sınavda bu soruları başarıyla çözdüğünü imgele. Bunu yapabilecek kontrolün sende mevcut olduğuna inan."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "   Odağın oldukça düştü. Şu an sıkılıyor olsan bile bu örnek soruları çözmenin gireceğin sınavlarda başarını arttırmak için gerekli olduğunu kendine ara ara hatırlatman odağını arttırabilir.  "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  İlgin oldukça azaldı. Etrafındaki çeldiricileri uzaklaştırmak dikkatini arttırabilir. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  İlgin oldukça azaldı. Etrafındaki çeldiricileri uzaklaştırmak dikkatini arttırabilir."
+				}
+			]
+		},
+		{
+			"id": "79",
+			"url": "https://ekampus.anadolu.edu.tr/#/materialdisplay?sourceurl=https%3A%2F%2Fvk21.anadolu.edu.tr%2Fplayback%2Fpresentation%2F2.3%2F9a62fc2549586379fcd1cbee3d735da54927b960-1641206560662&turnbackurl=%2Fmaterials%2FPersonel%2FING101U%2FİNGİLİZCE%20I%2FLIVE_COURSE%2FALL&materialid=419710&materialrate=0&materialname=Canlı%20Ders%20Kayıtları&courseurlcode=ING101U&materialtype=LIVE_COURSE&fileextension=youtube/link",
+			"name": "ING101U - Looking Back - Unit 11 - Canlı Ders Kayıtları_2021-22 (hafta 11)",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu ünitede geçmiş zaman etkinliklerini anlatabilmen için gerekecek yeni kelimeler öğreneceksin. Bu kelimeleri cümle içinde kullanmayı deneyebilirsin. Birkaç denemeden sonra yapabildiğini görmek ilgini arttırabilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  Odağın oldukça düştü. Bu derste 11. ünitenin yapıları öğretim elemanımız tarafından ayrıntılı bir şekilde açıklanıyor. Odaklanmakta zorlanıyorsan ünitemizin pdf versiyonuna gidip sadece eksik olduğun kısımların tekrarını yapabilirsin. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "   Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin."
+				}
+			]
+		},
+		{
+			"id": "80",
+			"url": "https://drive.google.com/file/d/1nVP16ybSQCbgUW7KHZigPikzawplKlIP/view?usp=sharing",
+			"name": "ING101U - Looking Back - Unit 11 - Çıkmış Sınav Soruları_2021-22 (dönem sonu)",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Şimdi gireceğin sınavda bu soruları başarıyla çözdüğünü imgele. Bunu yapabilecek kontrolün sende mevcut olduğuna inan."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  Odağın oldukça düştü. Şu an sıkılıyor olsan bile bu örnek soruları çözmenin gireceğin sınavlarda başarını arttırmak için gerekli olduğunu kendine ara ara hatırlatman odağını arttırabilir. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  İlgin oldukça azaldı. Etrafındaki çeldiricileri uzaklaştırmak dikkatini arttırabilir.  "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "   İlgin oldukça azaldı. Etrafındaki çeldiricileri uzaklaştırmak dikkatini arttırabilir. "
+				}
+			]
+		},
+		{
+			"id": "81",
+			"url": "https://drive.google.com/file/d/1yHpOh0GwhA3IDbllGr1hBP6EkaGYnNmf/view?usp=sharing",
+			"name": "ING101U - Looking Back - Unit 11 - Çıkmış Sınav Soruları_2019-20 (dönem sonu)",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Şimdi gireceğin sınavda bu soruları başarıyla çözdüğünü imgele. Bunu yapabilecek kontrolün sende mevcut olduğuna inan."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  Odağın oldukça düştü. Şu an sıkılıyor olsan bile bu örnek soruları çözmenin gireceğin sınavlarda başarını arttırmak için gerekli olduğunu kendine ara ara hatırlatman odağını arttırabilir. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  İlgin oldukça azaldı. Etrafındaki çeldiricileri uzaklaştırmak dikkatini arttırabilir.  "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "   İlgin oldukça azaldı. Etrafındaki çeldiricileri uzaklaştırmak dikkatini arttırabilir. "
+				}
+			]
+		},
+		{
+			"id": "82",
+			"url": "https://drive.google.com/file/d/13xGV1MeRAkaIoGlRrtLbPFepnqGxgtpV/view?usp=sharing",
+			"name": "ING101U - Fabulous Food - Unit 12 - Kitap_pdf",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "   İlginde biraz azalma gözlemliyorum. Bu ünitenin kazanımları arasında sevdiğimiz yiyecekleri tarif etmek var. Yabancı bir arkadaşınla yemeklerden konuşmak istemez miydin? Haydi şimdi bunu yapabildiğini hayal et. Uzman anlatımı videomuza bir göz atabilir ve karakterlerimizin yiyeceklerle ilgili yaptıkları konuşmalarda onlardan birisinin sen olduğunu düşünebilirsin.  "
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  İlgin azalmış görünüyor. Bu ünitenin kazanımları arasında sevdiğimiz yiyecekleri tarif etmek var.  Bu ifadeler yabancı bir arkadaşın veya bir turist ile konuşurken işine yarayacaktır.  "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  Odaklanma düzeyin çok düştü. Bir süre açık havada dolaşabilir ya da komik bir video izleyebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odaklanma düzeyin çok düştü. Bir süre açık havada dolaşabilir ya da komik bir video izleyebilirsin."
+				}
+			]
+		},
+		{
+			"id": "83",
+			"url": "https://www.youtube.com/watch?v=XsoD0x0Nhcc&t=1s",
+			"name": "ING101U - Fabulous Food - Unit 12 - Konu Tabanlı Video_ünite özet",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Şimdi çevrene bir göz at ve dikkatini dağıtabilecek çeldiricileri uzaklaştırmayı dene. "
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin biraz azalmış görünüyor. Sevdiğin yiyecekler neler? Peki ya asla yemem dediğin yiyecekler var mı? Bunlardan yabancı bir arkadaşına bahsetmek ister miydin? Şimdi bunu yapabildiğini imgele. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "   Odağın oldukça düştü. Şimdi biraz ara ver ve bu konuları pekiştirmek için neler yapabileceğini düşün. Dil öğrenirken kendi stratejilerini geliştirmen işini çok kolaylaştırır. Hedef belirlemek ve bu hedefe ulaşmak için bire süre tayin etmek öz düzenleme becerilerine katkı sağlar."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "    Odağın oldukça düştü. Şimdi biraz ara ver ve bu konuları pekiştirmek için neler yapabileceğini düşün. Dil öğrenirken kendi stratejilerini geliştirmen işini çok kolaylaştırır. Hedef belirlemek ve bu hedefe ulaşmak için bire süre tayin etmek öz düzenleme becerilerine katkı sağlar."
+				}
+			]
+		},
+		{
+			"id": "84",
+			"url": "https://www.youtube.com/watch?v=x35rLNZns30&t=1s",
+			"name": "ING101U - Fabulous Food - Unit 12 - Konu Tabanlı Video_uzman anlatımı",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Ders çalışırken sık sık odağımız düşebilir, dikkatimi dağılabilir. Bu normal olmakla birlikte sıklığı fazlaysa seni zorlayabilir. Böyle zamanlarda mobil cihazlara bir süre bakmama konusunda kendine belirli bir süre limiti koyarak bu süreyi her geçen gün arttırabilirsin."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  İlgin oldukça düştü. Bu öğrendiğin yapılarla ilgili daha önceki yıllarda çıkmış sorulara bir göz atmaya ne dersin? Bu seni daha aktif tutarak ilgini arttırabilir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın çok azaldı. Şimdi çevrene bir göz at ve dikkatini dağıtabilecek çeldiricileri uzaklaştırmayı dene."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odağın çok azaldı. Şimdi çevrene bir göz at ve dikkatini dağıtabilecek çeldiricileri uzaklaştırmayı dene."
+				}
+			]
+		},
+		{
+			"id": "85",
+			"url": "https://www.youtube.com/watch?v=SalwLRtTNoE&t=1s",
+			"name": "ING101U - Fabulous Food - Unit 12 - Soru Tabanlı Video_kilit sorular",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu örnek sorulara cevap verebiliyorsan konuyu iyi kavradın demektir. Sınavda işin oldukça kolay olacak gibi görünüyor."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz düştü. Bu videodaki soruları çözerken öğrendiğin taktikleri çıkmış sınav sorularına bakarak uygulamaya ne dersin? "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  İlgin oldukça azaldı. Dikkatini dağıtan çeldiriciler varsa onları bir süre göz ardı etmeye ne dersin? "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " İlgin oldukça azaldı. Dikkatini dağıtan çeldiriciler varsa onları bir süre göz ardı etmeye ne dersin? "
+				}
+			]
+		},
+		{
+			"id": "86",
+			"url": "https://www.youtube.com/watch?v=wpfUdVeg36U",
+			"name": "ING101U - Fabulous Food - Unit 12 - Soru Tabanlı Video_1 Soru 1 Cevap",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Bu videoda öğretim elemanımızın soruları çözerken dikkat çektiği noktalar neler? Bu noktaları kendi kendine önceki yılların sorularını çözerken nasıl kullanabilirsin? Öğretim elemanımızın verdiği ipuçlarını not almak seni daha aktif tutabilir."
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  Odağın oldukça azaldı. Şimdi önümüzdeki sınavda başarılı olmanın seni bir sonraki konuları öğrenmekte ne kadar motive edeceğini hayal et."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odaklanmakta zorlanıyor musun? Kendinle 20 dakika boyunca mobil cihazlara bakmamak için bir anlaşma yap. Her 20 dakika sonrası beşer dakikalık molalarla kendini ödüllendir. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odaklanmakta zorlanıyor musun? Kendinle 20 dakika boyunca mobil cihazlara bakmamak için bir anlaşma yap. Her 20 dakika sonrası beşer dakikalık molalarla kendini ödüllendir."
+				}
+			]
+		},
+		{
+			"id": "87",
+			"url": "https://ekampus.anadolu.edu.tr/#/materialdisplay?sourceurl=https%3A%2F%2Fvk21.anadolu.edu.tr%2Fplayback%2Fpresentation%2F2.3%2F9a62fc2549586379fcd1cbee3d735da54927b960-1641538880559&turnbackurl=%2Fmaterials%2FPersonel%2FING101U%2FİNGİLİZCE%20I%2FLIVE_COURSE%2FALL&materialid=420300&materialrate=0&materialname=Canlı%20Ders%20Kayıtları&courseurlcode=ING101U&materialtype=LIVE_COURSE&fileextension=youtube/link",
+			"name": "ING101U - Fabulous Food - Unit 12 - Canlı Ders Kayıtları_2021-22 (hafta 12)",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " İlgin biraz düştü.  Gözlerini videodaki öğretim elemanımıza odaklaman ve eğer yakınında mobil telefon gibi çeldiriciler varsa onları bir süreliğine uzaklaştırman dikkatini toplamada işine yarayabilir. "
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  Odağın çok azaldı. Pasif bir şekilde video izlemek odağını düşürmüş olabilir. Şimdi kendine bu videodaki kazanımlara ulaşmakla ilgili bir hedef belirle. Bu hedefe ulaşmak için neler yapabileceğini düşün. "
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": " Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": " Odağın oldukça düştü. Bazen pasif bir şekilde dinlemek odağını düşürebilir. Videoyu belli aralıklarla durdurabilir, öğretim elamanının sorularına cevap vermeyi deneyebilirsin."
+				}
+			]
+		},
+		{
+			"id": "88",
+			"url": "https://drive.google.com/file/d/1nVP16ybSQCbgUW7KHZigPikzawplKlIP/view?usp=sharing",
+			"name": "ING101U - Fabulous Food - Unit 12 - Çıkmış Sınav Soruları_2021-22 (dönem sonu)",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Sınav sorularını çözmekte zorlanıyorsan eksik olduğunu düşündüğün kısımlar için konu anlatımlı videolara bakabilirsin. "
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  Odağın oldukça azaldı. Şimdi bu sınavda başarılı olmanın seni bir sonraki konuları öğrenmekte ne kadar motive edeceğini hayal et."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  Odaklanmakta zorlanıyor musun? Kendinle 20 dakika boyunca mobil cihazlara bakmamak için bir anlaşma yap. Her 20 dakika sonrası beşer dakikalık molalarla kendini ödüllendir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odaklanmakta zorlanıyor musun? Kendinle 20 dakika boyunca mobil cihazlara bakmamak için bir anlaşma yap. Her 20 dakika sonrası beşer dakikalık molalarla kendini ödüllendir."
+				}
+			]
+		},
+		{
+			"id": "89",
+			"url": "https://drive.google.com/file/d/1yHpOh0GwhA3IDbllGr1hBP6EkaGYnNmf/view?usp=sharing",
+			"name": "ING101U - Fabulous Food - Unit 12 - Çıkmış Sınav Soruları_2019-20 (dönem sonu)",
+			"actions": [{
+					"engagement_lower_bound": 65,
+					"engagement_upper_bound": 100,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": " Odağın biraz azaldı. Sınav sorularını çözmekte zorlanıyorsan eksik olduğunu düşündüğün kısımlar için konu anlatımlı videolara bakabilirsin. "
+				},
+				{
+					"engagement_lower_bound": 40,
+					"engagement_upper_bound": 65,
+					"action_performed_on": 3,
+					"engagement_lost_percentage": 10,
+					"action_type": "notification",
+					"action_message": "  Odağın oldukça azaldı. Şimdi bu sınavda başarılı olmanın seni bir sonraki konuları öğrenmekte ne kadar motive edeceğini hayal et."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "email",
+					"action_message": "  Odaklanmakta zorlanıyor musun? Kendinle 20 dakika boyunca mobil cihazlara bakmamak için bir anlaşma yap. Her 20 dakika sonrası beşer dakikalık molalarla kendini ödüllendir."
+				},
+				{
+					"engagement_lower_bound": 0,
+					"engagement_upper_bound": 40,
+					"action_performed_on": 2,
+					"engagement_lost_percentage": 5,
+					"action_type": "notification",
+					"action_message": "  Odaklanmakta zorlanıyor musun? Kendinle 20 dakika boyunca mobil cihazlara bakmamak için bir anlaşma yap. Her 20 dakika sonrası beşer dakikalık molalarla kendini ödüllendir."
+				}
+			]
+		}
+
+	]
 }
